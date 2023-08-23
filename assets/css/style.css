@@ -1,21 +1,34 @@
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
-    padding: 20;
-    margin: 20;
+    /*-- Takes out white borders --*/
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
+}
+
+/* General styles*/
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /*Generic project styles*/
+    color: darkslategrey;
 }
 
 /* Header */
 header {
-    background-color: azure;
+    background-color: lightblue;
 }
 
 /* Main Content*/
-main{
-    background-color:beige;
+main {
+    background-color: azure;
+    /* Main element takes up surplus space and pushes footer down (flex-grow: 1 flex-shrink: 0 flex-basis: auto) */
+   flex: 1 0 auto;
+       
 }
 
 /* Footer */
 footer {
-    background-color: blanchedalmond;
+    background-color: lightblue;
 }
