@@ -16,7 +16,7 @@ body {
     display: flex;
     flex-direction: column;
     /*Generic project styles*/
-    color: darkslategrey;
+    color: dark green;
     font-family: 'Lato', sans-serif;
     /*font-family: 'Oswald', sans-serif;
     font-family: 'PT Sans', sans-serif;*/
@@ -30,6 +30,11 @@ header {
     position: fixed;/*Allows for scrolling*/
     z-index: 99;/*INVESTIGATE AND GIVE FEEDBACK*/
     box-shadow: 10px 5px 5px lightgray;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
 }
 
 h1 {
