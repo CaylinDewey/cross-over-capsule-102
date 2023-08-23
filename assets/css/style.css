@@ -59,7 +59,7 @@ h1 {
 
 /*Shows which item we are selecting*/
 .active {
-    border-bottom: 1px solid darkslateblue;
+    border-bottom: 1px solid darkblue;
 }
 
 /* Navbar styles with dropdown toggle */
