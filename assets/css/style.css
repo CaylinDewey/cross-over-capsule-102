@@ -42,6 +42,7 @@ h1 {
     /*font-family: 'Lato', sans-serif;*/
     /* font-family: 'Oswald', sans-serif;*/
     font-family: 'PT Sans', sans-serif;
+    font-size: 190%;/*made this myself - check afterwards*/
     /*LEFT OUT UPPERCASE AND LETTER SPACING AND SPECIAL FONT COLOR MAKING IT STAND OUT FROM NAV ITEMS - FROM TUTORIAL*/
 }
 
@@ -56,6 +57,17 @@ h1 {
 /*Shows which item we are selecting*/
 .active {
     border-bottom: 1px solid darkgreen;
+}
+
+/* Navbar styles with dropdown toggle */
+nav {
+    position:absolute; /*takes menu items out of header and negates h1 styling*/
+    background-color: lightblue;
+    width: 90%;/*put my own measurement should be 100%*/
+    padding: 0 1rem;
+    /*left: 0;*/
+    box-shadow: 10px 5px 5px lightgray;
+    display: none;
 }
 
 /* Main Content*/
