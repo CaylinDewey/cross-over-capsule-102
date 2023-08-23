@@ -1,3 +1,7 @@
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200;300;400;500;600;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
     /*-- Takes out white borders --*/
@@ -13,6 +17,9 @@ body {
     flex-direction: column;
     /*Generic project styles*/
     color: darkslategrey;
+    font-family: font-family: 'Lato', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'PT Sans', sans-serif;
 }
 
 /* Header */
@@ -24,8 +31,8 @@ header {
 main {
     background-color: azure;
     /* Main element takes up surplus space and pushes footer down (flex-grow: 1 flex-shrink: 0 flex-basis: auto) */
-   flex: 1 0 auto;
-       
+    flex: 1 0 auto;
+
 }
 
 /* Footer */
