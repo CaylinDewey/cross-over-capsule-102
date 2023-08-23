@@ -25,6 +25,11 @@ body {
 /* Header */
 header {
     background-color: lightblue;
+    padding: 0 1rem;
+    width: 100%;/*FILLS WIDTH OF THE SCREEN*/
+    position: fixed;/*Allows for scrolling*/
+    z-index: 99;/*INVESTIGATE AND GIVE FEEDBACK*/
+    box-shadow: 10px 5px 5px lightgray;
 }
 
 h1 {
@@ -44,4 +49,5 @@ main {
 /* Footer */
 footer {
     background-color: lightblue;
+    box-shadow: 10px -5px 5px lightgray; /*Optional*/
 }
