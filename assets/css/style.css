@@ -102,6 +102,14 @@ footer {
     box-shadow: 10px -5px 5px lightgray; /*Optional*/
 }
 
+#social-networks{
+    display: flex;
+    text-align: center;
+    padding: 20px 0;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
 /* Media query: tablets and larger (768px and up*/
 @media screen and (min-width:768px) {
     nav{
