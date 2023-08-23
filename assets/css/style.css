@@ -59,7 +59,7 @@ h1 {
 
 /*Shows which item we are selecting*/
 .active {
-    border-bottom: 1px solid darkgreen;
+    border-bottom: 1px solid darkslateblue;
 }
 
 /* Navbar styles with dropdown toggle */
@@ -120,4 +120,20 @@ footer {
     .nav-toggle-label {
         display: none;
     }
+    #logo {
+        font-size: 300%;
+        line-height: 70px;
+        margin: 5 5rem;/*margin: 0 0rem;*/
+    }
+    /* Main Content */
+    main {
+        /* Push main content to accomodate lareger header*/
+        margin-top: 75px;
+    }
 }
+/* Media query: laptops and larger (992x and up*/
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid red;
+        /*color: red; MY OTHER ITEMS ARE NOT LIVE LIKE THE TUTORIAL SAID THEY SHOULD BE*/
+    }
