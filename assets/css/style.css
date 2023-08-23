@@ -30,6 +30,9 @@ header {
     position: fixed;/*Allows for scrolling*/
     z-index: 99;/*INVESTIGATE AND GIVE FEEDBACK*/
     box-shadow: 10px 5px 5px lightgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
@@ -42,7 +45,7 @@ h1 {
     /*font-family: 'Lato', sans-serif;*/
     /* font-family: 'Oswald', sans-serif;*/
     font-family: 'PT Sans', sans-serif;
-    font-size: 190%;/*made this myself - check afterwards*/
+    font-size: 160%;/*made this myself - check afterwards*/
     /*LEFT OUT UPPERCASE AND LETTER SPACING AND SPECIAL FONT COLOR MAKING IT STAND OUT FROM NAV ITEMS - FROM TUTORIAL*/
 }
 
@@ -68,13 +71,28 @@ nav {
     /*left: 0;*/
     box-shadow: 10px 5px 5px lightgray;
     display: none;
+    top:100%; /*Leaves title ontop of navbar 0% bottom of parent*/
+}
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
 }
 
 /* Main Content*/
 main {
-    background-color: azure;
+    background-color: white;
     /* Main element takes up surplus space and pushes footer down (flex-grow: 1 flex-shrink: 0 flex-basis: auto) */
     flex: 1 0 auto;
+    margin-top: 47px; /*pushes the content below the header*/
 
 }
 
