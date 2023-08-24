@@ -89,11 +89,16 @@ nav {
 
 /* Main Content*/
 main {
-    background-color: white;
+    /* took out for hero image - background-color: white;*/
     /* Main element takes up surplus space and pushes footer down (flex-grow: 1 flex-shrink: 0 flex-basis: auto) */
     flex: 1 0 auto;
     margin-top: 47px; /*pushes the content below the header*/
-
+}
+/* Hero section*/
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/home.png") no-repeat center center/cover;
 }
 
 /* Footer */
