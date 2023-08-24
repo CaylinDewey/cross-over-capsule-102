@@ -26,7 +26,7 @@ body {
 header {
     background-color: lightblue;
     padding: 0 1rem;
-    width: 100%;/*FILLS WIDTH OF THE SCREEN*/
+    width: 100%;
     position: fixed;/*Allows for scrolling*/
     z-index: 99;/*INVESTIGATE AND GIVE FEEDBACK*/
     box-shadow: 10px 5px 5px lightgray;
@@ -66,9 +66,9 @@ h1 {
 nav {
     position:absolute; /*takes menu items out of header and negates h1 styling*/
     background-color: lightblue;
-    width: 90%;/*put my own measurement should be 100%*/
+    width: 100%;
     padding: 0 1rem;
-    /*left: 0;*/
+    left: 0;
     box-shadow: 10px 5px 5px lightgray;
     display: none;
     top:100%; /*Leaves title ontop of navbar 0% bottom of parent*/
@@ -139,7 +139,7 @@ footer {
     #logo {
         font-size: 300%;
         line-height: 70px;
-        margin: 5 5rem;/*margin: 0 0rem;*/
+        margin: 0 0rem;/*margin: 0 0rem;*/
     }
     /* Main Content */
     main {
