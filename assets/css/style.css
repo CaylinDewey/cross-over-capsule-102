@@ -22,6 +22,15 @@ body {
     font-family: 'PT Sans', sans-serif;*/
 }
 
+h1, h2, h3 {
+    /*font-family: 'Lato', sans-serif;*/
+    /* font-family: 'Oswald', sans-serif;*/
+    font-family: 'PT Sans', sans-serif;
+    font-size: 160%;
+    /*made this myself - check afterwards*/
+    /*LEFT OUT UPPERCASE AND LETTER SPACING AND SPECIAL FONT COLOR MAKING IT STAND OUT FROM NAV ITEMS - FROM TUTORIAL*/
+}
+
 /* Header */
 header {
     background-color: lightblue;
@@ -39,14 +48,6 @@ header a {
     text-decoration: none;
     /*inherit from body font*/
     color: inherit;
-}
-
-h1 {
-    /*font-family: 'Lato', sans-serif;*/
-    /* font-family: 'Oswald', sans-serif;*/
-    font-family: 'PT Sans', sans-serif;
-    font-size: 160%;/*made this myself - check afterwards*/
-    /*LEFT OUT UPPERCASE AND LETTER SPACING AND SPECIAL FONT COLOR MAKING IT STAND OUT FROM NAV ITEMS - FROM TUTORIAL*/
 }
 
 #menu{
@@ -98,7 +99,24 @@ main {
 #hero {
     height: 600px;
     width: 100%;
-    background: url("../images/home.png") no-repeat center center/cover;
+    background: url("../images/home.jpg") no-repeat center center/cover;
+    position: relative
+}
+
+#cover-text {
+    /*Final rgba value sets transparency*/
+    background-color: rgba(193, 214, 161, .7);
+    font: 130%;
+    position: absolute;
+    bottom: 50px;
+    width: 80%;
+    min-height: 100px;
+    padding-top: 10px;
+    padding-left: 10px;     
+}
+
+#cover-text {
+    color: white;
 }
 
 /* Footer */
@@ -150,6 +168,12 @@ footer {
     main {
         /* Push main content to accomodate lareger header*/
         margin-top: 75px;
+    }
+
+    /* Hero */
+    #cover-text {
+        width: 250px;
+        right: 50px;
     }
 }
 /* Media query: laptops and larger (992x and up*/
