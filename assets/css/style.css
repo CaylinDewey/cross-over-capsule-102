@@ -92,8 +92,11 @@ nav {
 main {
     /* took out for hero image - background-color: white;*/
     /* Main element takes up surplus space and pushes footer down (flex-grow: 1 flex-shrink: 0 flex-basis: auto) */
-    flex: 1 0 auto;/* IMAGE NEEDS TO GO TO BOTTOM */
-    margin-top: 38px;
+    flex: 1 0 auto;
+    /* Ensures header stays visible */
+    margin-top: 37px;/* was 47px*/
+    display: flex;
+    flex-direction: column;
 }
 /* Hero section*/
 #hero {
@@ -153,19 +156,16 @@ main {
 }
 
 /* Palette Section */
-#palette {
-    
-}
 
 #palette {
-    height: 575px;
+    /*height: 575px;*/
     width: 100%;
     background: url("../images/palette.jpg") no-repeat center center/cover;
     position: relative;
 }
 
 #options {
-    padding: 20px;
+    *padding: 20px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -185,11 +185,44 @@ main {
         text-align: center;
         font-size: 230%;
 }
+
+/* Sign Up Form */
 #sign-up {
-    height: 90vp;/*was 600px*/
-    width: 90vp;/*was 100*/
     background: url("../images/sign-up.jpg") no-repeat center center/cover;
-    position: relative;
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+}
+
+#signup-form {
+    background-color: rgb(255,255,255, .6);
+    padding: 30px;
+}
+
+/*#signup-form>h2 (
+    color: white;
+    margin-bottom: 20px;
+)*/
+
+.text-input {
+    background-color: transparent;
+    color: slategray;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+
+.join-button {
+    margin-top: 10px;
+    border-radius: 2px;
+    padding: 10px 15px;
+    font-size: 100%;
+    background-color: lightgray;
+    color: black;
 }
 
 /* Footer */
@@ -239,7 +272,7 @@ footer {
     }
     /* Main Content */
     main {
-        /* Push main content to accomodate lareger header*/
+        /* Push main content to accomodate larger header*/
         margin-top: 75px;
     }
 
@@ -252,6 +285,11 @@ footer {
         height: 1035px;
         position: relative;
     }
+    #palette h2 {
+        padding-top:20px;
+        text-align: center;
+        font-size: 230%;
+}
 }
 /* Reasons section*/
 #benefits {
@@ -260,6 +298,7 @@ footer {
     width: 100%;
     align-content: center;
 }
+
 
 /* Media query: laptops and larger (992x and up*/
 @media screen and (min-width: >=992px) {
@@ -276,6 +315,11 @@ footer {
     #palette {
         height: 870px;
     }
+    #palette h2 {
+        padding-top:20px;
+        text-align: center;
+        font-size: 230%;
+}
 }
 
     
