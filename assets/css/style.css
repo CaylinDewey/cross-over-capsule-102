@@ -223,4 +223,10 @@ footer {
         border-bottom: 1px solid red;
         /*color: red; MY OTHER ITEMS ARE NOT LIVE LIKE THE TUTORIAL SAID THEY SHOULD BE*/
     }
+    #reasons {
+        height: 200px;/* own fix to center reasons*/
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
     
