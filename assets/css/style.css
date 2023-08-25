@@ -16,7 +16,7 @@ body {
     display: flex;
     flex-direction: column;
     /*Generic project styles*/
-    color: dark green;
+    /*color: dark green;*/
     font-family: 'Lato', sans-serif;
     /*font-family: 'Oswald', sans-serif;
     font-family: 'PT Sans', sans-serif;*/
@@ -26,7 +26,7 @@ h1, h2, h3 {
     /*font-family: 'Lato', sans-serif;*/
     /* font-family: 'Oswald', sans-serif;*/
     font-family: 'PT Sans', sans-serif;
-    font-size: 160%;
+    font-size: 154%;
     /*made this myself - check afterwards*/
     /*LEFT OUT UPPERCASE AND LETTER SPACING AND SPECIAL FONT COLOR MAKING IT STAND OUT FROM NAV ITEMS - FROM TUTORIAL*/
 }
@@ -34,7 +34,7 @@ h1, h2, h3 {
 /* Header */
 header {
     background-color: lightblue;
-    padding: 0 1rem;
+    padding: 0; /* 1rem */
     width: 100%;
     position: fixed;/*Allows for scrolling*/
     z-index: 99;/*INVESTIGATE AND GIVE FEEDBACK*/
@@ -93,20 +93,20 @@ main {
     /* took out for hero image - background-color: white;*/
     /* Main element takes up surplus space and pushes footer down (flex-grow: 1 flex-shrink: 0 flex-basis: auto) */
     flex: 1 0 auto;/* I0MAGE NEEDS TO GO TO BOTTOM */
-    margin-top: 47px;
+    margin-top: 38px;
 }
 /* Hero section*/
 #hero {
-    height: 600px; /* DO MEDIA QUERY IF NOT RESPONSIVE */
-    width: 100%;
+    height: 90vp; /* was 600px DO MEDIA QUERY IF NOT RESPONSIVE */
+    width: 90vp; /* was 100% */
     background: url("../images/home.jpg") no-repeat center center/cover;
-    position: relative
+    position: relative;
 }
 
 /* Reasons section */
 #measurements {
-    height: 600px;
-    width: 100%;
+    height: 90vp;/*was 600px*/
+    width: 90vp;/*was 100*/
     background: url("../images/measurements.jpg") no-repeat center center/cover;
     position: relative;
 }
@@ -119,7 +119,7 @@ main {
 #reasons h2 {
     margin-bottom: 20px;
     text-align: center;
-    font-size: 280%;
+    font-size: 230%;
 }
 
 #benefits  {
@@ -209,9 +209,18 @@ footer {
         right: 50px;
     }
 }
+/* Reasons section*/
+#benefits {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-content: center;
+}
+
 /* Media query: laptops and larger (992x and up*/
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid red;
         /*color: red; MY OTHER ITEMS ARE NOT LIVE LIKE THE TUTORIAL SAID THEY SHOULD BE*/
     }
+    
