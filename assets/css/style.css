@@ -92,7 +92,7 @@ nav {
 main {
     /* took out for hero image - background-color: white;*/
     /* Main element takes up surplus space and pushes footer down (flex-grow: 1 flex-shrink: 0 flex-basis: auto) */
-    flex: 1 0 auto;/* I0MAGE NEEDS TO GO TO BOTTOM */
+    flex: 1 0 auto;/* IMAGE NEEDS TO GO TO BOTTOM */
     margin-top: 38px;
 }
 /* Hero section*/
@@ -152,6 +152,46 @@ main {
     color: white;
 }
 
+/* Palette Section */
+#palette {
+    
+}
+
+#palette {
+    height: 575px;
+    width: 100%;
+    background: url("../images/palette.jpg") no-repeat center center/cover;
+    position: relative;
+}
+
+#options {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#options div {
+    /* color: white;*/
+    background-color: rgb(255,255,255, .7);
+    padding:15px;
+    text-align: center;
+    /* This will allow the screens to wrap in response to different screen sizes in a row */
+    flex-basis: 200px;
+    flex-grow: 1;
+    /*border: 2px solid white;*/
+}
+
+#palette h2 {
+        padding-top:20px;
+        text-align: center;
+        font-size: 230%;
+}
+#sign-up {
+    height: 90vp;/*was 600px*/
+    width: 90vp;/*was 100*/
+    background: url("../images/sign-up.jpg") no-repeat center center/cover;
+    position: relative;
+}
+
 /* Footer */
 /*This footer section below was deleted in the tutorial and replaced by the social network id*/
 footer {
@@ -208,6 +248,10 @@ footer {
         width: 250px;
         right: 50px;
     }
+    #palette {
+        height: 1035px;
+        position: relative;
+    }
 }
 /* Reasons section*/
 #benefits {
@@ -218,7 +262,7 @@ footer {
 }
 
 /* Media query: laptops and larger (992x and up*/
-@media screen and (min-width: 992px) {
+@media screen and (min-width: >=992px) {
     #menu a:hover {
         border-bottom: 1px solid red;
         /*color: red; MY OTHER ITEMS ARE NOT LIVE LIKE THE TUTORIAL SAID THEY SHOULD BE*/
@@ -229,4 +273,9 @@ footer {
         flex-direction: column;
         justify-content: center;
     }
+    #palette {
+        height: 870px;
+    }
+}
+
     
