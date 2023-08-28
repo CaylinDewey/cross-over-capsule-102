@@ -127,10 +127,10 @@ main {
 
 /* Reasons section */
 #measurements {
-    height: 90vp;
-    /*was 600px*/
+    /*height: 90vp;
+    was 600px
     width: 90vp;
-    /*was 100*/
+    was 100*/
     background: url("../images/measurements.jpg") no-repeat center center/cover;
     position: relative;
 }
@@ -177,10 +177,7 @@ main {
 }
 
 /* Palette Section */
-
 #palette {
-    /*height: 575px;*/
-    width: 100%;
     background: url("../images/palette.jpg") no-repeat center center/cover;
     position: relative;
 }
@@ -211,9 +208,10 @@ main {
 /* Sign Up Form */
 #sign-up {
     background: url("../images/sign-up.jpg") no-repeat center center/cover;
+    background-position: relative;
     background-size: cover;
     background-position: 75%;
-    padding: 20px 10% 0 10%;
+    padding: 20px 10% 20px 10%;
     flex-grow: 1;
 }
 
@@ -317,16 +315,16 @@ footer {
         right: 50px;
     }
 
-    #palette {
+    /* #palette {
         height: 1035px;
         position: relative;
-    }
+    } 
 
     #palette h2 {
         padding-top: 20px;
         text-align: center;
         font-size: 230%;
-    }
+    }*/
 
     /* Reasons section*/
     #benefits {
@@ -361,7 +359,6 @@ footer {
 @media screen and (min-width: >=992px) {
     #menu a:hover {
         border-bottom: 1px solid red;
-        /*color: red; MY OTHER ITEMS ARE NOT LIVE LIKE THE TUTORIAL SAID THEY SHOULD BE*/
     }
 
     #reasons {
@@ -372,13 +369,9 @@ footer {
         justify-content: center;
     }
 
-    #palette {
-        height: 870px;
-    }
-
-    #palette h2 {
+    /*#palette h2 {
         padding-top: 20px;
         text-align: center;
         font-size: 230%;
-    }
+    }*/
 }
