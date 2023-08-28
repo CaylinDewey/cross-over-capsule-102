@@ -125,22 +125,18 @@ main {
     position: relative;
 }
 
-/* Reasons section */
+/* Measurements section */
 #measurements {
-    /*height: 90vp;
-    was 600px
-    width: 90vp;
-    was 100*/
     background: url("../images/measurements.jpg") no-repeat center center/cover;
     position: relative;
 }
 
-#reasons {
+/*#reasons {
     width: 90%;
     margin: 20px auto;
-}
+}*/
 
-#reasons h2 {
+/*#reasons h2 {
     margin-bottom: 20px;
     text-align: center;
     font-size: 230%;
@@ -158,7 +154,7 @@ main {
 #benefits hr {
     border-top: 1px solid #3a3a3a;
     margin: 5px 0;
-}
+}*/
 
 #cover-text {
     /*Final rgba value sets transparency*/
@@ -176,34 +172,45 @@ main {
     color: white;
 }
 
-/* Palette Section */
+/* Freedom & Measurements Section */
 #palette {
     background: url("../images/palette.jpg") no-repeat center center/cover;
     position: relative;
 }
 
+#info {
+        width: 90%;
+        margin: 20px auto;
+    }
+    
+#info h2 {
+        padding-top: 10px;
+        margin-bottom: 0px;
+        text-align: center;
+        font-size: 280%;
+        background-color:rgb(255, 255, 255, .7)
+    }
+
 #options {
-    *padding: 20px;
     display: flex;
     flex-wrap: wrap;
 }
 
 #options div {
-    /* color: white;*/
     background-color: rgb(255, 255, 255, .7);
     padding: 15px;
     text-align: center;
+    border: 2px solid white;
     /* This will allow the screens to wrap in response to different screen sizes in a row */
     flex-basis: 200px;
-    flex-grow: 1;
-    /*border: 2px solid white;*/
+    flex-grow: 1;    
 }
 
-#palette h2 {
+/*#palette h2 {
     padding-top: 20px;
     text-align: center;
     font-size: 230%;
-}
+}*/
 
 /* Sign Up Form */
 #sign-up {
@@ -262,7 +269,7 @@ footer {
 #social-networks {
     display: flex;
     text-align: center;
-    padding: 20px 0;
+    padding: 10px 0;
     justify-content: space-evenly;
     list-style-type: none;
 }
@@ -326,13 +333,14 @@ footer {
         font-size: 230%;
     }*/
 
-    /* Reasons section*/
+    /* Reasons section
     #benefits {
     display: flex;
     flex-direction: column;
     width: 100%;
     align-content: center;
     }
+    */
 
     /* Sign Up Section */
     #signup {
