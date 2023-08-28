@@ -248,7 +248,7 @@ main {
     color: black;
 }
 
-.join-button: hover {
+.join-button hover {
     background-color: black;
     color: red;
 }
