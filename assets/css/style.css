@@ -22,7 +22,9 @@ body {
     font-family: 'PT Sans', sans-serif;*/
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     /*font-family: 'Lato', sans-serif;*/
     /* font-family: 'Oswald', sans-serif;*/
     font-family: 'PT Sans', sans-serif;
@@ -34,10 +36,12 @@ h1, h2, h3 {
 /* Header */
 header {
     background-color: lightblue;
-    padding: 0; /* 1rem */
+    /* was 1rem */
+    padding: 6px;
     width: 100%;
-    position: fixed;/*Allows for scrolling*/
-    z-index: 99;/*INVESTIGATE AND GIVE FEEDBACK*/
+    /* Allows for scrolling */
+    position: fixed;
+    z-index: 99;
     box-shadow: 10px 5px 5px lightgray;
     display: flex;
     justify-content: space-between;
@@ -46,33 +50,37 @@ header {
 
 header a {
     text-decoration: none;
-    /*inherit from body font*/
+    /* inherit from body font */
     color: inherit;
 }
 
-#menu{
-    list-style-type: none;/*LEFT OUT LETTERSPACING: 4PX AND FONT-SIZE: 110%*/
+#menu {
+    list-style-type: none;
+    /* was: 4PX AND FONT-SIZE: 110% */
 }
 
-#menu > li {
-    margin-bottom: 1em;/*can we do this another way??*/
+#menu>li {
+    margin-bottom: 1em;
 }
 
 /*Shows which item we are selecting*/
 .active {
-    border-bottom: 1px solid darkblue;
+    border-bottom: 1px solid red;
 }
 
 /* Navbar styles with dropdown toggle */
 nav {
-    position:absolute; /*takes menu items out of header and negates h1 styling*/
+    /*takes menu items out of header and negates h1 styling*/
+    position: absolute;    
     background-color: lightblue;
     width: 100%;
     padding: 0 1rem;
     left: 0;
     box-shadow: 10px 5px 5px lightgray;
     display: none;
-    top:100%; /*Leaves title ontop of navbar 0% bottom of parent*/
+    /*Leaves title ontop of navbar 0% bottom of parent*/
+    top: 100%;
+    
 }
 
 /* Nav toggle */
@@ -87,29 +95,42 @@ nav {
 .nav-toggle-label {
     font-size: 2rem;
 }
+/* Fix hover and take out red line
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 0 1rem;
+}
 
+nav a: hover {
+    colour: white;
+}
+*/
 /* Main Content*/
 main {
-    /* took out for hero image - background-color: white;*/
-    /* Main element takes up surplus space and pushes footer down (flex-grow: 1 flex-shrink: 0 flex-basis: auto) */
-    flex: 1 0 auto;
-    /* Ensures header stays visible */
-    margin-top: 37px;/* was 47px*/
+    /* Ensures header stays visible needs 75px on media query >768  */
+    margin-top: 37px;
+    /* was 47px*/
     display: flex;
     flex-direction: column;
+    /* Main element takes up surplus space and pushes footer down (flex-grow: 1 flex-shrink: 0 flex-basis: auto) */
+    flex: 1 1 auto;
 }
+
 /* Hero section*/
 #hero {
-    height: 90vp; /* was 600px DO MEDIA QUERY IF NOT RESPONSIVE */
-    width: 90vp; /* was 100% */
+    /* was 600px DO MEDIA QUERY IF NOT RESPONSIVE */
+    /* was 100% */
     background: url("../images/home.jpg") no-repeat center center/cover;
     position: relative;
 }
 
 /* Reasons section */
 #measurements {
-    height: 90vp;/*was 600px*/
-    width: 90vp;/*was 100*/
+    height: 90vp;
+    /*was 600px*/
+    width: 90vp;
+    /*was 100*/
     background: url("../images/measurements.jpg") no-repeat center center/cover;
     position: relative;
 }
@@ -125,7 +146,7 @@ main {
     font-size: 230%;
 }
 
-#benefits  {
+#benefits {
     line-height: 20px;
     margin-bottom: 20px;
 }
@@ -148,7 +169,7 @@ main {
     width: 80%;
     min-height: 100px;
     padding-top: 10px;
-    padding-left: 10px;     
+    padding-left: 10px;
 }
 
 #cover-text {
@@ -169,10 +190,11 @@ main {
     display: flex;
     flex-wrap: wrap;
 }
+
 #options div {
     /* color: white;*/
-    background-color: rgb(255,255,255, .7);
-    padding:15px;
+    background-color: rgb(255, 255, 255, .7);
+    padding: 15px;
     text-align: center;
     /* This will allow the screens to wrap in response to different screen sizes in a row */
     flex-basis: 200px;
@@ -181,9 +203,9 @@ main {
 }
 
 #palette h2 {
-        padding-top:20px;
-        text-align: center;
-        font-size: 230%;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 230%;
 }
 
 /* Sign Up Form */
@@ -196,7 +218,8 @@ main {
 }
 
 #signup-form {
-    background-color: rgb(255,255,255, .6);
+    /* color: ffffff */
+    background-color: rgb(255, 255, 255, .6);
     padding: 30px;
 }
 
@@ -225,14 +248,20 @@ main {
     color: black;
 }
 
+.join-button: hover {
+    background-color: black;
+    color: red;
+}
+
 /* Footer */
 /*This footer section below was deleted in the tutorial and replaced by the social network id*/
 footer {
     background-color: lightblue;
-    box-shadow: 10px -5px 5px lightgray; /*Optional*/
+    box-shadow: 10px -5px 5px lightgray;
+    /*Optional*/
 }
 
-#social-networks{
+#social-networks {
     display: flex;
     text-align: center;
     padding: 20px 0;
@@ -249,27 +278,33 @@ footer {
 
 /* Media query: tablets and larger (768px and up*/
 @media screen and (min-width:768px) {
-    nav{
+    nav {
         display: block;
         position: relative;
         /*box-shadow: none;*/
         width: fit-content;
         padding-right: 1 rem;
-    } 
+    }
+
     #menu {
         display: flex;
-    }     
-    #menu > li {
+    }
+
+    #menu>li {
         padding-left: 1rem;
-    }   
+    }
+
     .nav-toggle-label {
         display: none;
     }
+
     #logo {
         font-size: 300%;
         line-height: 70px;
-        margin: 0 0rem;/*margin: 0 0rem;*/
+        margin: 0 0rem;
+        /*margin: 0 0rem;*/
     }
+
     /* Main Content */
     main {
         /* Push main content to accomodate larger header*/
@@ -281,22 +316,44 @@ footer {
         width: 250px;
         right: 50px;
     }
+
     #palette {
         height: 1035px;
         position: relative;
     }
+
     #palette h2 {
-        padding-top:20px;
+        padding-top: 20px;
         text-align: center;
         font-size: 230%;
-}
-}
-/* Reasons section*/
-#benefits {
+    }
+
+    /* Reasons section*/
+    #benefits {
     display: flex;
     flex-direction: column;
     width: 100%;
     align-content: center;
+    }
+
+    /* Sign Up Section */
+    #signup {
+    background-position: center;
+    position: relative;
+    }
+    #signup-form {
+        max-width: 400px;
+        position: absolute;
+        left: 10%;
+        top: 150px;
+    }
+    .text-input: hover {
+        border-color: green;    
+    }
+    .join-button:hover {
+        background-color: green;
+        color: darkgrey;
+    }
 }
 
 
@@ -306,20 +363,22 @@ footer {
         border-bottom: 1px solid red;
         /*color: red; MY OTHER ITEMS ARE NOT LIVE LIKE THE TUTORIAL SAID THEY SHOULD BE*/
     }
+
     #reasons {
-        height: 200px;/* own fix to center reasons*/
+        height: 200px;
+        /* own fix to center reasons*/
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
+
     #palette {
         height: 870px;
     }
+
     #palette h2 {
-        padding-top:20px;
+        padding-top: 20px;
         text-align: center;
         font-size: 230%;
+    }
 }
-}
-
-    
