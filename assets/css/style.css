@@ -56,7 +56,7 @@ header a {
 /* Shows which item we are selecting */
 .active {
     cursor: grab;
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid black;
 }
 
 /* Navbar styles with dropdown toggle */
