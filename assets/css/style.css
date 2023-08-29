@@ -15,28 +15,19 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /*Generic project styles*/
-    /*color: dark green;*/
     font-family: 'Lato', sans-serif;
-    /*font-family: 'Oswald', sans-serif;
-    font-family: 'PT Sans', sans-serif;*/
 }
 
 h1,
 h2,
 h3 {
-    /*font-family: 'Lato', sans-serif;*/
-    /* font-family: 'Oswald', sans-serif;*/
     font-family: 'PT Sans', sans-serif;
     font-size: 154%;
-    /*made this myself - check afterwards*/
-    /*LEFT OUT UPPERCASE AND LETTER SPACING AND SPECIAL FONT COLOR MAKING IT STAND OUT FROM NAV ITEMS - FROM TUTORIAL*/
 }
 
 /* Header */
 header {
     background-color: lightblue;
-    /* was 1rem */
     padding: 6px;
     width: 100%;
     /* Allows for scrolling */
@@ -56,31 +47,32 @@ header a {
 
 #menu {
     list-style-type: none;
-    /* was: 4PX AND FONT-SIZE: 110% */
 }
 
 #menu>li {
     margin-bottom: 1em;
 }
 
-/*Shows which item we are selecting*/
+/* Shows which item we are selecting */
 .active {
+    cursor: grab;
     border-bottom: 1px solid red;
 }
 
 /* Navbar styles with dropdown toggle */
 nav {
-    /*takes menu items out of header and negates h1 styling*/
-    position: absolute;    
+    /* Takes menu items out of header and negates h1 styling */
+    position: absolute;
     background-color: lightblue;
     width: 100%;
     padding: 0 1rem;
     left: 0;
     box-shadow: 10px 5px 5px lightgray;
     display: none;
-    /*Leaves title ontop of navbar 0% bottom of parent*/
+    /* Leaves title ontop of navbar 0% bottom of parent */
     top: 100%;
-    
+    text-align: right;
+
 }
 
 /* Nav toggle */
@@ -95,22 +87,12 @@ nav {
 .nav-toggle-label {
     font-size: 2rem;
 }
-/* Fix hover and take out red line
-nav a {
-    text-decoration: none;
-    color: black;
-    padding: 0 1rem;
-}
 
-nav a: hover {
-    colour: white;
-}
-*/
+
 /* Main Content*/
 main {
     /* Ensures header stays visible needs 75px on media query >768  */
     margin-top: 37px;
-    /* was 47px*/
     display: flex;
     flex-direction: column;
     /* Main element takes up surplus space and pushes footer down (flex-grow: 1 flex-shrink: 0 flex-basis: auto) */
@@ -119,8 +101,6 @@ main {
 
 /* Hero section*/
 #hero {
-    /* was 600px DO MEDIA QUERY IF NOT RESPONSIVE */
-    /* was 100% */
     background: url("../images/home.jpg") no-repeat center center/cover;
     position: relative;
 }
@@ -130,31 +110,6 @@ main {
     background: url("../images/measurements.jpg") no-repeat center center/cover;
     position: relative;
 }
-
-/*#reasons {
-    width: 90%;
-    margin: 20px auto;
-}*/
-
-/*#reasons h2 {
-    margin-bottom: 20px;
-    text-align: center;
-    font-size: 230%;
-}
-
-#benefits {
-    line-height: 20px;
-    margin-bottom: 20px;
-}
-
-#benefits p {
-    padding: 0 20px;
-}
-
-#benefits hr {
-    border-top: 1px solid #3a3a3a;
-    margin: 5px 0;
-}*/
 
 #cover-text {
     /*Final rgba value sets transparency*/
@@ -179,17 +134,17 @@ main {
 }
 
 #info {
-        width: 90%;
-        margin: 20px auto;
-    }
-    
+    width: 90%;
+    margin: 20px auto;
+}
+
 #info h2 {
-        padding-top: 10px;
-        margin-bottom: 0px;
-        text-align: center;
-        font-size: 280%;
-        background-color:rgb(255, 255, 255, .7)
-    }
+    padding-top: 10px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 280%;
+    background-color: rgb(255, 255, 255, .7)
+}
 
 #options {
     display: flex;
@@ -203,16 +158,9 @@ main {
     border: 2px solid white;
     /* This will allow the screens to wrap in response to different screen sizes in a row */
     flex-basis: 200px;
-    flex-grow: 1;    
+    flex-grow: 1;
 }
 
-/*#palette h2 {
-    padding-top: 20px;
-    text-align: center;
-    font-size: 230%;
-}*/
-
-/* Sign Up Form */
 #sign-up {
     background: url("../images/sign-up.jpg") no-repeat center center/cover;
     background-position: relative;
@@ -227,11 +175,6 @@ main {
     background-color: rgb(255, 255, 255, .6);
     padding: 30px;
 }
-
-/*#signup-form>h2 (
-    color: white;
-    margin-bottom: 20px;
-)*/
 
 .text-input {
     background-color: transparent;
@@ -280,15 +223,30 @@ footer {
     color: black;
 }
 
+/* Media query: large or landscape phones (576px and up)
+@media screen and (min-width: 576px) {
+Fix hover and take out red line 
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 0 1rem;
+} 
 
-/* Media query: tablets and larger (768px and up*/
-@media screen and (min-width:768px) {
+menu a hover {
+    cursor: grab;
+}
+}*/
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+
+    /* Header */
     nav {
         display: block;
         position: relative;
-        /*box-shadow: none;*/
+        box-shadow: none;
         width: fit-content;
-        padding-right: 1 rem;
+        padding-right: 1rem;
     }
 
     #menu {
@@ -322,40 +280,23 @@ footer {
         right: 50px;
     }
 
-    /* #palette {
-        height: 1035px;
-        position: relative;
-    } 
-
-    #palette h2 {
-        padding-top: 20px;
-        text-align: center;
-        font-size: 230%;
-    }*/
-
-    /* Reasons section
-    #benefits {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-content: center;
-    }
-    */
-
     /* Sign Up Section */
     #signup {
-    background-position: center;
-    position: relative;
+        background-position: center;
+        position: relative;
     }
+
     #signup-form {
         max-width: 400px;
         position: absolute;
         left: 10%;
         top: 150px;
     }
-    .text-input: hover {
-        border-color: green;    
+
+    .text-input:hover {
+        border-color: green;
     }
+
     .join-button:hover {
         background-color: green;
         color: darkgrey;
@@ -366,7 +307,7 @@ footer {
 /* Media query: laptops and larger (992x and up*/
 @media screen and (min-width: >=992px) {
     #menu a:hover {
-        border-bottom: 1px solid red;
+        cursor: grab;
     }
 
     #reasons {
@@ -376,10 +317,4 @@ footer {
         flex-direction: column;
         justify-content: center;
     }
-
-    /*#palette h2 {
-        padding-top: 20px;
-        text-align: center;
-        font-size: 230%;
-    }*/
 }
