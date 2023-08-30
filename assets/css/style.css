@@ -279,7 +279,7 @@ menu a hover {
         width: 240px;
         right: 50px;
         display: flex;
-        flex-wrap:
+        flex-wrap: wrap;
     }
 
     /* Sign Up Section */
@@ -307,7 +307,7 @@ menu a hover {
 
 
 /* Media query: laptops and larger (992x and up*/
-@media screen and (min-width: >=992px) {
+@media screen and (min-width: 992px) {
     #menu a:hover {
         cursor: grab;
     }
