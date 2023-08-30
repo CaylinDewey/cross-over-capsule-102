@@ -276,8 +276,10 @@ menu a hover {
 
     /* Hero */
     #cover-text {
-        width: 80%;;
+        width: 240px;
         right: 50px;
+        display: flex;
+        flex-wrap:
     }
 
     /* Sign Up Section */
