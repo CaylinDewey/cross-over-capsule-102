@@ -163,7 +163,6 @@ main {
 
 #sign-up {
     background: url("../images/sign-up.jpg") no-repeat center center/cover;
-    background-position: relative;
     background-size: cover;
     background-position: 75%;
     padding: 20px 10% 20px 10%;
