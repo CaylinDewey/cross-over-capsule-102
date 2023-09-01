@@ -55,7 +55,7 @@ header a {
 
 /* Shows which item we are selecting */
 .active {
-    cursor: grab;
+    cursor:grab;
     border-bottom: 1px solid black;
 }
 
@@ -88,6 +88,10 @@ nav {
     font-size: 2rem;
 }
 
+nav a:hover {
+    background-color: silver;
+    color: black;
+}
 
 /* Main Content*/
 main {
@@ -218,20 +222,6 @@ footer {
     padding: 4%;
     color: black;
 }
-
-/* Media query: large or landscape phones (576px and up)
-@media screen and (min-width: 576px) {
-Fix hover and take out red line 
-nav a {
-    text-decoration: none;
-    color: black;
-    padding: 0 1rem;
-} 
-
-menu a hover {
-    cursor: grab;
-}
-}*/
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
