@@ -1,4 +1,4 @@
-![COC_logo](assets/images/COC_Icon.png)
+![coc_icon](assets/images/COC_Icon.png)
 
 # Cross-over Capsule
 Cross-over Capsule is intended to provide a support for professionals too busy living life to worry about what they should wear. The site targets people who want to maximise their freedom of living and to minimise stress.
@@ -7,18 +7,40 @@ Cross-over Capsule is intended to provide a support for professionals too busy l
 
 The site is responsive to viewing on mobiles, tablets, laptops, and desktops. View on Cross-over Capsule on [Github](https://caylindewey.github.io/cross-over-capsule-102/) Pages.
 
+## Contents
+- [Features](#features)
+    - [User Experience](#user-experience)
+        -[User Experience Centered Design](#user-experience-centered-design)
+        -[User Return Experience Future Proof](#user-return-exprience-future-proof)
+        -[Imagery](#imagery)        
+    -[Future Implementations](#future-implementations)
+        - [Accessibility](#accessibility)
+        - [Readme File Improvements](#readme-file-improvements)
+- [Technologies](#technologies-usedacknowledgements)
+    - [Languages](#languages)
+    - [Frameworks, Programs and Libraries](#frameworks-programs-and-libraries)
+    - [Deployment](#deployment)
+    - [Local Development](#local-development)
+        - [How to Fork](#how-to-fork)
+        - [How to Clone](#how-to-clone)
+- [Testing](#testing)
+    - [Workflow](#workflow)
+    - [Tests](#tests)
+        - [Validator HTML & CSS](#validator)
+        - [Lighthouse](#lighthouse)
+        - [Signup Form](#signup-form)
+- [Support](#support)
+- [Frequently Asked Questions](#frequently-asked-questions)
+
 ## Features
-### User Experience
+### User Experience 
 ![Design](assets/images/wireframe_cross-over_capsule_v1.png)
 
 #### User-Experience Centered Design
 Initally the site was designed a strong focus on avoiding decision fatigue. A very clean, "easy to take in" style was adopted. As the project evolved the header and footer color was made light blue. The intention is to ease the user into a really clean, simple, and easy user-experience.
 
-
-
-#### Navigaton Efficiency
-The navigation bar linked to pages as opposed to having the site on one page with hyperlinks to sections.  This is to enhance predictablity for future growth.  Users are ensured continuity as the busieness expands. Endless scrolling is also avoided.  Each stroke and click is efficient.
-
+#### User Return Exprience Future Proof
+The navigation bar linked to pages, as opposed to having the site on one page with hyperlinks to sections.  This is to enhance predictablity for future growth.  Users are ensured continuity in their experience, as the busieness expands. Endless scrolling is also avoided.  Each stroke and click is efficient. The user is indeed also future proofed.
 
 #### Imagery
 The images presents the user experience as it unfolds on the navigation bar from left to right.   
@@ -62,7 +84,24 @@ HTML and CSS were used to create this website.
 Github was used to deploy this site.  The steps are as follows:
 1. Log into the [Github site](https://github.com/)
 2. Pull up the repository for [Cross-over Capsule](https://github.com/CaylinDewey/cross-over-capsule-102)
+3. Select the settings link, then the pages link.
+4. In the source section choose 'main' from the dropdown menu.  
+5. Select the 'root' from the drop menu and 'save'.
+6. The URL that is displayed should have your live Github pages site. 
+
+### Local Development
+#### How to Fork
+1. Log into the [Github site](https://github.com/)
+2. Pull up the repository for [Cross-over Capsule](https://github.com/CaylinDewey/cross-over-capsule-102)
 3. Use to [fork button](assets/images/github_fork.png) on the top right hand corner 
+
+#### How to Clone
+1. Log into the [Github site](https://github.com/)
+2. Click on the burger menu that will open up the repositories you are working on at the bottom.  Select the project you need.
+3. Click on the clone button and select from HTTPS, SSH, or GitHub CLI.  Then copy the link shown.
+4. Open your code editor terminal and change the current work directory to the location you want to use for the cloned directory.
+5. Type in the terminal 'git clone' and paste your link here. 
+
 
 ## Testing
 ### Workflow
