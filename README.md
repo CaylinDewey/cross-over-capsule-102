@@ -61,7 +61,7 @@ It may be prudent to keep an eye on the [Labfresh](https://labfresh.nl/) and [ni
 I would strongly recommend that more time be spent on ensuring that this site is accessible to all users and so inclusive.
 
 #### Readme File Improvements
-The readme file could containt badges and shields with up to date stats.  It could also have instructions for local development and cloning as seen on [Kera Cudmore's readme example](https://github.com/kera-cudmore/Bully-Book-Club#local-development). 
+The readme file could containt badges and shields with up to date stats.  It could also have instructions for local development and cloning as seen on [Kera Cudmore's readme example](https://github.com/kera-cudmore/Bully-Book-Club#local-development). A color palette from [Canva](https://canva.com) could be sourced to ensure all future marketing material complies to standards set.
 
 ## Technologies Used/Acknowledgements
 ### Languages
