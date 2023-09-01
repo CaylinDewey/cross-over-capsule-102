@@ -14,7 +14,10 @@ The site is responsive to viewing on mobiles, tablets, laptops, and desktops. Vi
         - [User Return Experience Future Proof](#user-return-exprience-future-proof)
         - [Imagery](#imagery)        
     - [Future Implementations](#future-implementations)
-        - [Accessibility](#accessibility)
+        - [Browser Testing](#browser-testing)
+        - [Chrome Dev Tools Lighthouse Scores](#chrome-dev-tools-lighthouse-scores)
+        - [Content for Marketing](#content-for-marketing-on-the-site)
+        - [Accessibility and Color Contrasts](#accessibility--color-contrasts)
         - [Readme File Improvements](#readme-file-improvements)
 - [Technologies](#technologies-usedacknowledgements)
     - [Languages](#languages)
@@ -26,9 +29,14 @@ The site is responsive to viewing on mobiles, tablets, laptops, and desktops. Vi
 - [Testing](#testing)
     - [Workflow](#workflow)
     - [Tests](#tests)
+        - [Chrome Dev Tools Responsive Testing](#chrome-dev-tools-responsive-testing)
+        - [AmIResponsive](#amiresponsive)
         - [Validator HTML & CSS](#validator)
-        - [Lighthouse](#lighthouse)
-        - [Signup Form](#signup-form)
+        - [Chrome Dev Tools Lighthouse](#chrome-dev-tools-lighthouse)
+        - [Features of the site](#signup-form)
+            - [Navigation Bar](#navigation-bar)
+            - [Social Media Links](#social-media-links)
+            - [Signup Form](#signup-form)
 - [Support](#support)
 - [Frequently Asked Questions](#frequently-asked-questions)
 
@@ -39,8 +47,8 @@ The site is responsive to viewing on mobiles, tablets, laptops, and desktops. Vi
 #### User-Experience Centered Design
 Initally the site was designed a strong focus on avoiding decision fatigue. A very clean, "easy to take in" style was adopted. As the project evolved the header and footer color was made light blue. The intention is to ease the user into a really clean, simple, and easy user-experience.
 
-#### User Return Exprience Future Proof
-The navigation bar linked to pages, as opposed to having the site on one page with hyperlinks to sections.  This is to enhance predictablity for future growth.  Users are ensured continuity in their experience, as the busieness expands. Endless scrolling is also avoided.  Each stroke and click is efficient. The user is indeed also future proofed.
+#### User Return Experience that is Future Proof
+The navigation bar is linked to pages, as opposed to having the site on one page with hyperlinks to sections.  This is to enhance predictablity for future growth.  Users are ensured continuity in their experience, as the busieness expands. Endless scrolling is also avoided.  Each stroke and click is efficient. The seemless user-experience is indeed also future proofed in this way.
 
 #### Imagery
 The images presents the user experience as it unfolds on the navigation bar from left to right.   
@@ -53,12 +61,21 @@ The images presents the user experience as it unfolds on the navigation bar from
 - Signup: Your orders can be processed by staff that take ethics and professionalism seriously.  [signup](assets/images/signup_tablet.png)
  
 ### Future Implementations
-In future it would be great to have a few shots and clips of influencers that fit our demographic. Examples would be influencers that rate tech, travel gear, travel destinations, etc. It would be great to feature their wardrobe and what they selected and why.
+#### Browser Testing
+The site could be tested in different browsers in future. It was not part of the minimal viable product for this project.
 
-It may be prudent to keep an eye on the [Labfresh](https://labfresh.nl/) and [ninepine](https://www.ninepine.nl/) sites for inspiration. It would also be really cool to collaborate with their people, maybe even featuring their founders. This triple all three brands exposure in keeping with contemporary podcasters recipe for marketing.
+#### Chrome Dev Tools Lighthouse Scores
+The scores for mobile performance especially, could be improved.
 
-#### Accessibility
-I would strongly recommend that more time be spent on ensuring that this site is accessible to all users and so inclusive.
+#### Content for Marketing on the Site
+In future it would be great to have a few shots and clips of influencers that fit our demographic. Examples would be influencers that rate tech, travel gear, travel destinations, etc. Ideas for content could be to feature their wardrobe and what they selected and why. As product upgrades are released, these can then be reviewed for "promotion" by the influencers.
+
+It may be prudent to keep an eye on the [Labfresh](https://labfresh.nl/) and [ninepine](https://www.ninepine.nl/) sites for inspiration. It would also be really cool to collaborate with their people, maybe even featuring their founders. This could potentially triple all three brands exposure for global marketing.  Many podcasters and influencers follow this marketing recipe.
+
+Minimalism has a drawback that you are actually marketing the idea for the user to consume less.  By constandly upgrading and refining our product range, we can avoid this and tap into a market that very few people have managed to grow.
+
+#### Accessibility & Color Contrasts
+I would strongly recommend that more time be spent on ensuring that this site is accessible to all users and so inclusive. Many more aria-labels can be inserted.  Color contrasts can be introduced in conjunction with the standard brand palette.
 
 #### Readme File Improvements
 The readme file could containt badges and shields with up to date stats.  It could also have instructions for local development and cloning as seen on [Kera Cudmore's readme example](https://github.com/kera-cudmore/Bully-Book-Club#local-development). A color palette from [Canva](https://canva.com) could be sourced to ensure all future marketing material complies to standards set.
@@ -109,18 +126,43 @@ Github was used to deploy this site.  The steps are as follows:
 At various stages of the project, feedback was gained and changes made to:
 - Navigation item Freedom was initially a palette tab. It was recommended that I focus on user experience instead of a sales pitch. I was quote with the idea that if you want someone to sail with you, you need to get them to fall inlove with open waters and not pitch the actual ship tasks to them.
 - Navigation item Supportive was initially a measurements tab. Once again, this mundane task was replaced with an almost Steve Jobs pitch of internal as well as external idealism.
-- Several tweeks had to be made for responsiveness throughout the project, on all the pages.
+- Several refinements had to be made for responsiveness throughout the project, for mobile, tablet, laptop and desktop.  The mobile Galaxy Fold, and the Tablet Mac Air, was used.
 - There was a concern that the signup tab form dissappeared behind the white bits of the underlying image. A vote was made by concerned opionators and it was decided to leave it for now.
-- Halfway through the project I ran out of Codeanywhere hours and the Code Institute Tutor had me working on Gitpod within a day - so efficient!!
+- Halfway through the project I ran out of Codeanywhere hours and had to switch to Gitpod.  The Code Institute Tutor had me working on Gitpod within a day - so efficient!!
 
 ### Tests
+#### Chrome Dev Tools Responsive Testing
+From the inception of the project all code was written for the mobile (Galaxy Fold), then tested on bigger devices. Media queries were created to ensure that the site is responsive to all 4 devices.
+
+#### AmIResponsive
+At the end of the project the final test was done on this [site](assets/images/responsive-results.png).
+
 #### Validator
 All HTML and CSS pages were tested.  Most of the bugs found were syntax bugs that were easily resolved.  Errors were thus corrected until there were no errors.
 
-#### Lighthouse
-The [Lighthouse scores](assets/images/lighthouse_result.png) for accessibility, best practices and SEO were 100%.  The score for performance was only 74%.  A panel will be consulted to measure the weight of this as a priority for work on the site.
+#### Chrome Dev Tools Lighthouse
+The following scores for mobile were recorded:
+[Mobile Home](assets/images/lighthouse_home_mobile.png)
+[Mobile Freedom](assets/images/lighthouse_freedom_mobile.png)
+[Mobile Supportive](assets/images/LIghthouse_supportive_mobile.png)
+[Mobile Sign-up](assets/images/lighthouse_signup_mobile.png)
 
-#### Signup Form
+The following scores for desktop were recorded:
+[Desktop Home](assets/images/lighthouse_home_desktop.png)
+[Desktop Freedom](assets/images/lighthouse_freedom_desktop.png)
+[Desktop Supportive](assets/images/lighthouse_supportive_desktop.png)
+[Desktop Sign-up](assets/images/lighthouse_signup_desktop.png)
+
+Mention was made in future implementation to review the necessity of a better score, especially for the mobile performance before time is allocated for this.  
+
+#### Features of the site
+##### Navigation Bar
+The navigation bar links were tested. Hovering and grabbing features are working. The page title is underlined to show which page you have selected. Aria-labels are included in all links.
+
+##### Social Media Links
+All social media links in the footer work. Aria-labels are included in all links.
+
+##### Signup Form
 The [signup form](assets/images/signup_data_dump.png) data was submitted correctly. [Errors](assets/images/signup_errs.png) messages prevent forms with invalid data being submitted. 
 
 ## Support
