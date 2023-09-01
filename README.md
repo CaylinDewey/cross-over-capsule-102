@@ -14,6 +14,7 @@ The site is responsive to viewing on mobiles, tablets, laptops, and desktops. Vi
         - [User Return Experience Future Proof](#user-return-exprience-future-proof)
         - [Imagery](#imagery)        
     - [Future Implementations](#future-implementations)
+        - [Minimal Viable Product](#minimal-viable-product)
         - [Browser Testing](#browser-testing)
         - [Chrome Dev Tools Lighthouse Scores](#chrome-dev-tools-lighthouse-scores)
         - [Content for Marketing](#content-for-marketing-on-the-site)
@@ -61,6 +62,9 @@ The images presents the user experience as it unfolds on the navigation bar from
 - Signup: Your orders can be processed by staff that take ethics and professionalism seriously.  [signup](assets/images/signup_tablet.png)
  
 ### Future Implementations
+#### Minimal Viable Product
+The MVP was considered with most of the work for this project. So much more content and features could be included.  Initially an order form with measurements, palette choice form, and email features were considered.  You will see remnants of some initial code referring to "palette", "mesurements", and "mail to" that stemmed from this.  One of the first rectrospectives for the project caused this change in course.  These are all improvements that can be pinned for weighting or prioritising in future user stories.
+
 #### Browser Testing
 The site could be tested in different browsers in future. It was not part of the minimal viable product for this project.
 
