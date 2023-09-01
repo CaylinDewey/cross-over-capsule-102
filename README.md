@@ -1,4 +1,4 @@
-![coc_icon](assets/images/COC_Icon.png)
+![coc_icon](assets/images/coc_icon.png)
 
 # Cross-over Capsule
 Cross-over Capsule is intended to provide a support for professionals too busy living life to worry about what they should wear. The site targets people who want to maximise their freedom of living and to minimise stress.
@@ -10,10 +10,10 @@ The site is responsive to viewing on mobiles, tablets, laptops, and desktops. Vi
 ## Contents
 - [Features](#features)
     - [User Experience](#user-experience)
-        -[User Experience Centered Design](#user-experience-centered-design)
-        -[User Return Experience Future Proof](#user-return-exprience-future-proof)
-        -[Imagery](#imagery)        
-    -[Future Implementations](#future-implementations)
+        - [User Experience Centered Design](#user-experience-centered-design)
+        - [User Return Experience Future Proof](#user-return-exprience-future-proof)
+        - [Imagery](#imagery)        
+    - [Future Implementations](#future-implementations)
         - [Accessibility](#accessibility)
         - [Readme File Improvements](#readme-file-improvements)
 - [Technologies](#technologies-usedacknowledgements)
@@ -73,6 +73,7 @@ HTML and CSS were used to create this website.
 - [Google Fonts](https://fonts.google.com/) was used to imports fonts to the website
 - [Git](https://git-scm.com/) was used for version control
 - [Github](https://github.com/) was used to save and store files
+- [Canva](https://canva.com) was used to generate the Cross-over Capsule icon
 - [Font Awesome](https://fontawesome.com/v4/icons/) was used for all icons
 - [Favicon](https://favicon.io/favicon-converter/) was used to create the favicon
 - [Am I Responsive](https://ui.dev/amiresponsive) was used for the image of the range of devices
