@@ -1,7 +1,7 @@
 ![coc_icon](assets/images/coc_icon.png)
 
-# Cross-over Capsule
-Cross-over Capsule is intended to provide a support for professionals too busy living life to worry about what they should wear. The site targets people who want to maximise their freedom of living and to minimise stress.
+# Threads
+Threads is intended to provide a support for professionals too busy living life to worry about what they should wear. The site targets people who want to maximise their freedom of living and to minimise stress.
 
 ![Responsive](assets/images/responsive-results.png)
 
@@ -140,6 +140,7 @@ At various stages of the project, feedback was gained and changes made to:
 - Several refinements had to be made for responsiveness throughout the project, for mobile, tablet, laptop and desktop.  The mobile Galaxy Fold, and the Tablet Mac Air, was used.
 - There was a concern that the signup tab form dissappeared behind the white bits of the underlying image. A vote was made by concerned opionators and it was decided to leave it for now.
 - Halfway through the project I ran out of Codeanywhere hours and had to switch to Gitpod.  The Code Institute Tutor had me working on Gitpod within a day - so efficient!!
+- In response to the peer-review the logo and name of the site was changed from "Cross-over Capsule" to "Threads".
 
 ### Tests
 #### Solved Bugs
