@@ -117,9 +117,9 @@ main {
 
 #cover-text {
     /*Final rgba value sets transparency*/
-    background-color: rgba(193, 214, 161, .7);
+    background-color: rgb(255, 255, 255, .6);
     padding: 10px;
-    color: white;
+    color: black;
     position: absolute;
     top: 50px;
     width: 63%;

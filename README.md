@@ -11,6 +11,7 @@ The site is responsive to viewing on mobiles, tablets, laptops, and desktops. Vi
 - [Features](#features)
     - [User Experience](#user-experience)
         - [User Experience Centered Design](#user-experience-centered-design)
+        - [User Experience Scalability](#user-experience-scalibility)
         - [User Return Experience Future Proof](#user-return-exprience-future-proof)
         - [Imagery](#imagery)        
     - [Future Implementations](#future-implementations)
@@ -43,13 +44,18 @@ The site is responsive to viewing on mobiles, tablets, laptops, and desktops. Vi
 
 ## Features
 ### User Experience 
-![Design](assets/images/wireframe_cross-over_capsule_v1.png)
+![Design](assets/images/wireframe_cross-over_capsule_v1.png) 
 
 #### User-Experience Centered Design
-Initally the site was designed a strong focus on avoiding decision fatigue. A very clean, "easy to take in" style was adopted. As the project evolved the header and footer color was made light blue. The intention is to ease the user into a really clean, simple, and easy user-experience.
+Initally the site was designed a strong focus on avoiding decision fatigue. A very clean, "easy to take in" style was adopted. The intention is to ease the user into a really clean, simple, and easy user-experience. EACH STROKE AND CLICK IS EFFICIENT AND INTUITIVE.
+
+#### User-Experience Scalibility
+The palette was chosen from [Codespace](https://mycolor.space/) to ensure a calm, serene and welcoming user experience. As the project evolved the header and footer color was changed for to conform to a palette which could be used to compile a branding package in the future. 
+
+![CodeSpace](assets/images/Small%20Switch%20Palette.png).
 
 #### User Return Experience that is Future Proof
-The navigation bar is linked to pages, as opposed to having the site on one page with hyperlinks to sections.  This is to enhance predictablity for future growth.  Users are ensured continuity in their experience, as the busieness expands. Endless scrolling is also avoided.  Each stroke and click is efficient. The seemless user-experience is indeed also future proofed in this way.
+The navigation bar is linked to pages, as opposed to having the site on one page with hyperlinks to sections.  This is to enhance predictablity for future growth.  Users are ensured continuity in their experience, as the business expands. Endless scrolling is also avoided.  EACH STROKE AND CLICK IS EFFICIENT. The seemless user-experience is indeed also future proofed in this way.
 
 #### Imagery
 The images presents the user experience as it unfolds on the navigation bar from left to right.   
@@ -82,7 +88,7 @@ Minimalism has a drawback that you are actually marketing the idea for the user 
 I would strongly recommend that more time be spent on ensuring that this site is accessible to all users and so inclusive. Many more aria-labels can be inserted.  Color contrasts can be introduced in conjunction with the standard brand palette.
 
 #### Readme File Improvements
-The readme file could containt badges and shields with up to date stats.  It could also have instructions for local development and cloning as seen on [Kera Cudmore's readme example](https://github.com/kera-cudmore/Bully-Book-Club#local-development). A color palette from [Canva](https://canva.com) could be sourced to ensure all future marketing material complies to standards set.
+The readme file could containt badges and shields with up to date stats.  It could also have instructions for local development and cloning as seen on [Kera Cudmore's readme example](https://github.com/kera-cudmore/Bully-Book-Club#local-development). A branding package could be sourced to ensure all future marketing material complies to standards set.
 
 ## Technologies Used/Acknowledgements
 ### Languages
@@ -135,6 +141,9 @@ At various stages of the project, feedback was gained and changes made to:
 - Halfway through the project I ran out of Codeanywhere hours and had to switch to Gitpod.  The Code Institute Tutor had me working on Gitpod within a day - so efficient!!
 
 ### Tests
+#### Solved Bugs
+Initially the images were not compressed enough for fast loading.  The image on the 'Supportive'page had to be replaced.  All images are now compressed for faster loading.
+
 #### Chrome Dev Tools Responsive Testing
 From the inception of the project all code was written for the mobile (Galaxy Fold), then tested on bigger devices. Media queries were created to ensure that the site is responsive to all 4 devices.
 
@@ -148,7 +157,7 @@ All HTML and CSS pages were tested.  Most of the bugs found were syntax bugs tha
 The following scores for mobile were recorded:
 [Mobile Home](assets/images/lighthouse_home_mobile.png)
 [Mobile Freedom](assets/images/lighthouse_freedom_mobile.png)
-[Mobile Supportive](assets/images/LIghthouse_supportive_mobile.png)
+[Mobile Supportive](assets/images/lighthouse_supportive_mobile.png)
 [Mobile Sign-up](assets/images/lighthouse_signup_mobile.png)
 
 The following scores for desktop were recorded:
