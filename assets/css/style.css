@@ -27,7 +27,7 @@ h3 {
 
 /* Header */
 header {
-    background-color: lightblue;
+    background-color: #AFCFC3;
     padding: 6px;
     width: 100%;
     /* Allows for scrolling */
@@ -63,7 +63,7 @@ header a {
 nav {
     /* Takes menu items out of header and negates h1 styling */
     position: absolute;
-    background-color: lightblue;
+    background-color: #AFCFC3;
     width: 100%;
     padding: 0 1rem;
     left: 0;
@@ -204,7 +204,7 @@ main {
 /* Footer */
 /*This footer section below was deleted in the tutorial and replaced by the social network id*/
 footer {
-    background-color: lightblue;
+    background-color: #AFCFC3;
     box-shadow: 10px -5px 5px lightgray;
     /*Optional*/
 }
