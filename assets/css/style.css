@@ -45,6 +45,11 @@ header a {
     color: inherit;
 }
 
+/* Logo Styles */
+.logo {
+    max-width:100px;
+}
+
 #menu {
     list-style-type: none;
 }

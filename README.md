@@ -75,7 +75,7 @@ The MVP was considered with most of the work for this project. So much more cont
 The site could be tested in different browsers in future. It was not part of the minimal viable product for this project.
 
 #### Chrome Dev Tools Lighthouse Scores
-The scores for mobile performance especially, could be improved.
+The scores for mobile performance especially, has been improved after a peer-review suggested this. All the new images reflecting the updated and improved tests are now [available](#chrome-dev-tools-lighthouse).
 
 #### Content for Marketing on the Site
 In future it would be great to have a few shots and clips of influencers that fit our demographic. Examples would be influencers that rate tech, travel gear, travel destinations, etc. Ideas for content could be to feature their wardrobe and what they selected and why. As product upgrades are released, these can then be reviewed for "promotion" by the influencers.
@@ -95,18 +95,19 @@ The readme file could containt badges and shields with up to date stats.  It cou
 HTML and CSS were used to create this website.
 
 ### Frameworks, Programs and Libraries
-- [Figjam](https://www.figma.com/) was used for the wireframe
-- [Lightshot](https://app.prntscr.com/en/index.html) was used for screendumps
-- [Google Fonts](https://fonts.google.com/) was used to imports fonts to the website
-- [Git](https://git-scm.com/) was used for version control
-- [Github](https://github.com/) was used to save and store files
-- [Canva](https://canva.com) was used to generate the Cross-over Capsule icon
-- [Font Awesome](https://fontawesome.com/v4/icons/) was used for all icons
-- [Favicon](https://favicon.io/favicon-converter/) was used to create the favicon
-- [Am I Responsive](https://ui.dev/amiresponsive) was used for the image of the range of devices
+- [Am I Responsive](https://ui.dev/amiresponsive) displays the site on a range of devices.
 - [Code Institute Readme Template](Code-Institute-Solutions/readme-template) 
 - [Code Institue Alumna's, Kera Cudmore, Readme Tutorial](https://github.com/kera-cudmore)
 - [Code Institute Student Tutor and Mentor Support](https://learn.codeinstitute.net/ci_support/diplomainfullstacksoftwarecommoncurriculum/support)
+- [Codespace](https://mycolor.space/) was used to select a color palette. Details of the color palette are on the [wireframe](assets/images/wireframe_cross-over_capsule_v1.png). 
+- [Favicon](https://favicon.io/favicon-converter/) was used to create the favicon
+- [Figjam](https://www.figma.com/) was used for the wireframe
+- [Font Awesome](https://fontawesome.com/v4/icons/) was used for all icons
+- [Google Fonts](https://fonts.google.com/) was used to imports fonts to the website
+- [Git](https://git-scm.com/) was used for version control
+- [Github](https://github.com/) was used to save and store files
+- [Lightshot](https://app.prntscr.com/en/index.html) was used for screendumps
+
 
 ### Deployment
 Github was used to deploy this site.  The steps are as follows:
