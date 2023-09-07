@@ -115,7 +115,7 @@ main {
     flex: 1 1 auto;
 }
 
-/* Hero section*/
+/* Hero Page*/
 #hero {
     background: url("../images/home.jpg") no-repeat center center/cover;
     position: relative;
@@ -134,7 +134,7 @@ main {
     padding-left: 10px;
 }
 
-/* Freedom & Supportive Section */
+/* Freedom Page */
 #freedom {
     background: url("../images/freedom.jpg") no-repeat center center/cover;
     position: relative;
@@ -153,27 +153,23 @@ main {
     background-color: rgb(255, 255, 255, .7)
 }
 
-/* Supportive section*/
-#measurements {
-    background: url("../images/measurements.jpg") no-repeat center center/cover;
-    position: relative;
+/* Gallery Page */
+#photos img {
+    /* Lines up the images below each other in mobile*/
+    width: 100%;
+    /* Alt text stays readable if image link is broken */
+    line-height: 1em;
 }
 
-#options {
-    display: flex;
-    flex-wrap: wrap;
+#photos {
+    /* Takes away white line between photos*/
+    line-height: 0;
 }
 
-#options div {
-    background-color: rgb(255, 255, 255, .7);
-    padding: 15px;
-    text-align: center;
-    border: 2px solid white;
-    /* This will allow the screens to wrap in response to different screen sizes in a row */
-    flex-basis: 200px;
-    flex-grow: 1;
-}
 
+
+
+/* Signup Page*/
 #sign-up {
     background: url("../images/sign-up.jpg") no-repeat center center/cover;
     background-size: cover;
