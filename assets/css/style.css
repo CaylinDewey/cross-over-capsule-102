@@ -166,9 +166,6 @@ main {
     line-height: 0;
 }
 
-
-
-
 /* Signup Page*/
 #sign-up {
     background: url("../images/sign-up.jpg") no-repeat center center/cover;
@@ -231,6 +228,14 @@ footer {
     color: black;
 }
 
+/* Media query: large or landscape phones 576px and up)  */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
@@ -281,6 +286,11 @@ footer {
         align-content: center;
     }
 
+    /* Gallery */
+    #photos {
+        column-count: 3;
+    }
+
     /* Sign Up Section */
     #signup {
         background-position: center;
@@ -309,6 +319,11 @@ footer {
 @media screen and (min-width: 992px) {
     #menu a:hover {
         cursor: grab;
+    }
+
+    /* Gallery */
+    #photos {
+        column-count: 4;
     }
 
     #reasons {
