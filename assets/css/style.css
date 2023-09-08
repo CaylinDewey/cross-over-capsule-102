@@ -115,7 +115,7 @@ main {
     flex: 1 1 auto;
 }
 
-/* Hero Page*/
+/* Index Page*/
 #hero {
     background: url("../images/home.jpg") no-repeat center center/cover;
     position: relative;
@@ -171,12 +171,12 @@ main {
 /* Gallery Page */
 #gallery {
     background-color: grey;
-    
 }
 
 #photos img {
     /* Lines up the images below each other in mobile*/
     width: 100%;
+    max-height: auto;
     /* Alt text stays readable if image link is broken */
     line-height: 1em;
 }
@@ -294,7 +294,7 @@ footer {
         margin-top: 75px;
     }
 
-    /* Hero */
+    /* Index */
     #cover-text {
         width: auto;
         left: 20px;
@@ -308,7 +308,7 @@ footer {
 
     /* Gallery */
     #photos {
-        column-count: 3;
+        column-count: 2;
     }
 
     /* Sign Up Section */
