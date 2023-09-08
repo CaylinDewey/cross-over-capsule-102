@@ -1,19 +1,25 @@
-![coc_icon](assets/images/coc_icon.png)
+![logo](assets/images/logo.png)
 
 # Threads
-Threads is intended to provide a support for professionals too busy living life to worry about what they should wear. The site targets people who want to maximise their freedom of living and to minimise stress.
+Threads is intended to provide support for professionals, too busy living life to worry about what they should wear. The site targets people who want to maximise their freedom of living, and to minimise stress of dressing for it.
+
+In the sign up form, a brochure can be requested with all the details for ordering. This will ensure that marketing can be optimised with carefully targeted campaigns - avoiding information overload for our customers. 
+
+The site is responsive to viewing on mobiles, tablets, laptops, and desktops.
 
 ![Responsive](assets/images/responsive-results.png)
 
-The site is responsive to viewing on mobiles, tablets, laptops, and desktops. View on Cross-over Capsule on [Github](https://caylindewey.github.io/cross-over-capsule-102/) Pages.
+ View Threads Cross-over Capsule live project [here](https://caylindewey.github.io/cross-over-capsule-102/).
 
-## Contents
+## Table of Contents
+- [User Stories](#user-stories)
+    - [User Experience Centered Design](#user-experience-centered-design)
+    - [User Experience Scalability](#user-experience-scalibility)
+    - [User Return Experience Future Proof](#user-return-exprience-future-proof)
+    - [Imagery](#imagery)   
 - [Features](#features)
-    - [User Experience](#user-experience)
-        - [User Experience Centered Design](#user-experience-centered-design)
-        - [User Experience Scalability](#user-experience-scalibility)
-        - [User Return Experience Future Proof](#user-return-exprience-future-proof)
-        - [Imagery](#imagery)        
+
+     
     - [Future Implementations](#future-implementations)
         - [Minimal Viable Product](#minimal-viable-product)
         - [Browser Testing](#browser-testing)
@@ -42,21 +48,48 @@ The site is responsive to viewing on mobiles, tablets, laptops, and desktops. Vi
 - [Support](#support)
 - [Frequently Asked Questions](#frequently-asked-questions)
 
-## Features
+## User Stories
 ### User Experience 
-![Design](assets/images/wireframe_cross-over_capsule_v1.png) 
+![Design](assets/images/readme_wireframe.png) 
 
-#### User-Experience Centered Design
-Initally the site was designed a strong focus on avoiding decision fatigue. A very clean, "easy to take in" style was adopted. The intention is to ease the user into a really clean, simple, and easy user-experience. EACH STROKE AND CLICK IS EFFICIENT AND INTUITIVE.
+#### First-time Visitor Goals
+- The site has been designed with an "easy to take in" style focussed on avoiding decision fatigue and information overload.  
+- EACH STROKE AND CLICK IS EFFICIENT AND INTUITIVE.
 
-#### User-Experience Scalibility
-The palette was chosen from [Codespace](https://mycolor.space/) to ensure a calm, serene and welcoming user experience. As the project evolved the header and footer color was changed for to conform to a palette which could be used to compile a branding package in the future. 
+#### Returning Visitor Goals (Scalability and Future Proof)
+- The design should accomodate the same "easy to take in" user experince regardless of the product range growth and development. 
+- The freedom page gives constant updates in technical information, and concepts.
+- The gallery page gives visual updates in style and color.
+- The sign up form ensures that you are sent targetted marketing information to suit your style and preferences.
+
+#### Frequent User Goals
+- The concept is minimalistic but will avoid the trap that other products like this fall into.  This range will help you constantly improve the pleasure your wardrobe gives you, with our latest gear!  The minimalistic focus will be on getting more and more pleasure from everything that you own. Replace items that do not give you pleasure anymore.
+- Read about our latest product developments and ideas on the freedom page.
+- See our latest gear and styles on the gallery page.
+
+## Features
+### Navigation Bar
+- It is fixed for visibility on all pages. 
+- All the pages have links making them accessible from any page. A hover feature helps you see which page you are selecting.
+- It is identical in design on all pages, promoting ease of use.
+- The page you are on is underlined.
+- It includes all pages (home, freedom, gallery and sign up page).
+
+![Navigation Bar](assets/images/readme_navbar_desktop.png)
+
+On the mobile device the navigation bar folds into a burger icon with a drop down menu. 
+
+![Navigation bar on mobile](assets/images/readme_navbar_mobile.png)
+
+### Main Heading
+The logo has been incorporated with the heading in keeping with the product philosophy of having less do more for you.
+
+The palette was chosen from [Codespace](https://mycolor.space/) to ensure a calm, serene and welcoming user experience. As the project evolved the header and footer color was changed to conform to a palette which could be used to compile a branding package in the future. 
 
 ![CodeSpace](assets/images/Small%20Switch%20Palette.png).
 
-#### User Return Experience that is Future Proof
-The navigation bar is linked to pages, as opposed to having the site on one page with hyperlinks to sections.  This is to enhance predictablity for future growth.  Users are ensured continuity in their experience, as the business expands. Endless scrolling is also avoided.  EACH STROKE AND CLICK IS EFFICIENT. The seemless user-experience is indeed also future proofed in this way.
 
+### Main Heading
 #### Imagery
 The images presents the user experience as it unfolds on the navigation bar from left to right.   
 - Home: Here the user is presented with the idea of looking at their wardrobe knowing what they are going to wear anywhere, anytime! [Home](assets/images/home_tablet.png)  
