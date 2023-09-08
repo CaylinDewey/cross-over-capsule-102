@@ -198,7 +198,8 @@ main {
 #signup-form {
     /* color: ffffff */
     background-color: rgb(255, 255, 255, .6);
-    padding: 30px;
+    padding: 20px;
+    margin-top: 70px;
 }
 
 .text-input {
@@ -254,6 +255,11 @@ footer {
         column-count: 2;
         column-gap: 0;
     }
+    /*#signup-form {
+        position: absolute;
+        top: 50 px;
+        padding-top: 20px;
+    }*/
 }
 
 /* Media query: tablets and larger (768px and up) */
