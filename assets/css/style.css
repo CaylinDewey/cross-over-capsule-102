@@ -169,6 +169,11 @@ main {
 }
 
 /* Gallery Page */
+#gallery {
+    background-color: rgb (223, 232,224);
+    
+}
+
 #photos img {
     /* Lines up the images below each other in mobile*/
     width: 100%;
@@ -338,7 +343,8 @@ footer {
 
     /* Gallery */
     #photos {
-        column-count: 4;
+        column-count: 3;
+        column-gap: 0;
     }
 
     #reasons {
