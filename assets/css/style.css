@@ -211,13 +211,20 @@ main {
 
 /* Gallery Page */
 #gallery {
-    background: color #dfe8e0;;
+    background-color:#DFE8E0;
 }
 
+.gallery_heading {
+        padding-top: 10px;
+        margin-bottom: 0px;
+        text-align: center;
+        font-size: 280%;
+    }
+    
 #photos img {
     /* Lines up the images below each other in mobile*/
     width: 100%;
-    max-height: auto;
+    height: auto;    
     /* Alt text stays readable if image link is broken */
     line-height: auto;
 }
