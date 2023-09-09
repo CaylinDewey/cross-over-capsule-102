@@ -209,15 +209,9 @@ main {
     flex-grow: 1;
 }
 
-
-
-
-
-
-
 /* Gallery Page */
 #gallery {
-    background-color: grey;
+    background: color #dfe8e0;;
 }
 
 #photos img {
@@ -225,7 +219,7 @@ main {
     width: 100%;
     max-height: auto;
     /* Alt text stays readable if image link is broken */
-    line-height: 1em;
+    line-height: auto;
 }
 
 #photos {
