@@ -135,11 +135,12 @@ main {
 }
 
 /* Freedom Page */
+/*
 #freedom {
     background: url("../images/freedom.jpg") no-repeat center center/cover;
     position: relative;
 }
-/*
+
 #info {
     width: 90%;
     margin: 20px auto;
@@ -177,10 +178,11 @@ main {
 
 /*  Playground */
 #freedom {
-    background: url("../images/freedom.jpg") no-repeat center center/cover;
+    background-color: #dfe8e0;
     position: relative;
 }
 
+/* Section 1 */
 #info {
     width: 90%;
     margin: 20px auto;
@@ -191,7 +193,7 @@ main {
     margin-bottom: 0px;
     text-align: center;
     font-size: 280%;
-    background-color: rgb(255, 255, 255, .7)
+    
 }
 
 #options {
@@ -200,7 +202,7 @@ main {
 }
 
 #options div {
-    background-color: rgb(255, 255, 255, .7);
+    
     padding: 15px;
     text-align: center;
     /* This will allow the screens to wrap in response to different screen sizes in a row */
@@ -216,7 +218,43 @@ main {
     flex-basis: 50px;
     flex-grow: 1;
 }
-*/
+/* Section Two */
+#info_2 {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#info_2 h2 {
+    padding-top: 10px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 280%;
+
+}
+
+#options_2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#options_2 div {
+    
+    padding: 15px;
+    text-align: center;
+    /* This will allow the screens to wrap in response to different screen sizes in a row */
+    flex-basis: 200px;
+    flex-grow: 1;
+    margin: auto;
+}
+
+.box_image_2 {
+    width: 30rem;
+    height: 30rem;
+    opacity: 0.7;
+    margin-top: 2rem;
+    flex-basis: 50px;
+    flex-grow: 1;
+}
 
 
 
