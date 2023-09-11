@@ -178,11 +178,11 @@ main {
     margin: 20px auto;
 }
 
-#info_2 h2 {
+#info_2 h3 {
     padding-top: 10px;
     margin-bottom: 0px;
     text-align: center;
-    font-size: 280%;
+    font-size: 150%;
 }
 
 #options_2 {
@@ -201,21 +201,34 @@ main {
     font-size:larger
 }
 
+/** Section 3 **/
+#info_3 {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#info_3 h3 {
+    padding-top: 10px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 150%;
+}
+
+#options_3 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 #options_3 div {
     padding: 15px;
-    text-align: right;
+    text-align: left;
     /* This will allow the screens to wrap in response to different screen sizes in a row */
     flex-basis: 200px;
     flex-grow: 1;
     margin: auto;
     line-height: 2;
-    font-size:larger';
+    font-size:larger;
 }
-
-#options_4 div {
-    text-align: left;
-}
-
 
 .box_image_2 {
     width: 15rem;

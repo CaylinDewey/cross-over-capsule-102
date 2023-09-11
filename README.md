@@ -233,6 +233,41 @@ Github was used to deploy this site.  The steps are as follows:
 
 
 ## Testing
+### Validator 
+
+
+<details>
+<summary>index.html
+</summary>
+
+![Home Page validation result](/assets/images/readme_validation_index_result.png)
+</details>
+<details>
+<summary>freedom.html
+</summary>
+
+![Freedom validation result](/assets/images/read_va)
+</details>
+<details>
+<summary>freedom.html
+</summary>
+
+![Gallery validation result](/assets/images/
+</details>
+<details>
+<summary>Gallery.html
+</summary>
+
+![Application Received validation result](/assets/images/
+</details>
+<details>
+<summary>style.css
+</summary>
+
+![CSS validation result](/assets/images/
+</details>
+
+
 ### Workflow
 At various stages of the project, feedback was gained and changes made to:
 - Navigation item Freedom was initially a palette tab. It was recommended that I focus on user experience instead of a sales pitch. I was quote with the idea that if you want someone to sail with you, you need to get them to fall inlove with open waters and not pitch the actual ship tasks to them.
