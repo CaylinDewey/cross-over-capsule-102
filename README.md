@@ -12,13 +12,26 @@ The site is responsive to viewing on mobiles, tablets, laptops, and desktops.
  View Threads Cross-over Capsule live project [here](https://caylindewey.github.io/cross-over-capsule-102/).
 
 ## Table of Contents
-- [User Stories](#user-stories)
+- [User Stories UX](#user-stories-ux)
+    - [First-time Visitor Goals](#first-time-visitor-goals)
+    - [Returning Visitor Goals](#returning-visitor-goals-scalability-and-future-proof)
+    - [Frequent User Goals](#frequent-user-goals)
+
+
+
+
+
+
+
+
+
+
     - [User Experience Centered Design](#user-experience-centered-design)
     - [User Experience Scalability](#user-experience-scalibility)
     - [User Return Experience Future Proof](#user-return-exprience-future-proof)
     - [Imagery](#imagery)   
 - [Features](#features)
-
+    - [Existing Features]()
      
     - [Future Implementations](#future-implementations)
         - [Minimal Viable Product](#minimal-viable-product)
@@ -48,32 +61,34 @@ The site is responsive to viewing on mobiles, tablets, laptops, and desktops.
 - [Support](#support)
 - [Frequently Asked Questions](#frequently-asked-questions)
 
-## User Stories
+## User Stories UX
 ### User Experience 
 ![Design](assets/images/readme_wireframe.png) 
+- The site has been designed with an "easy to take in" style focussed on avoiding decision fatigue and information overload.  
+- Each stroke and click is efficient and intentional.
 
 #### First-time Visitor Goals
-- The site has been designed with an "easy to take in" style focussed on avoiding decision fatigue and information overload.  
-- EACH STROKE AND CLICK IS EFFICIENT AND INTUITIVE.
+- Buy into the idea of owning an easy way of dressing and then sign on for a brochure. 
 
 #### Returning Visitor Goals (Scalability and Future Proof)
-- The design should accomodate the same "easy to take in" user experince regardless of the product range growth and development. 
-- The freedom page gives constant updates in technical information, and concepts.
-- The gallery page gives visual updates in style and color.
-- The sign up form ensures that you are sent targetted marketing information to suit your style and preferences.
+- The site is scalable and will remain just as easy and simple to take in regardless of expansion and growth. 
+- The focus will be on replacing product with ones - on our site - that give you more joy.  
 
 #### Frequent User Goals
-- The concept is minimalistic but will avoid the trap that other products like this fall into.  This range will help you constantly improve the pleasure your wardrobe gives you, with our latest gear!  The minimalistic focus will be on getting more and more pleasure from everything that you own. Replace items that do not give you pleasure anymore.
-- Read about our latest product developments and ideas on the freedom page.
+- Read about our latest product developments and ideas on the freedom page.  See how you feel in the world wearing our clothes.
 - See our latest gear and styles on the gallery page.
+- Sign on for the latest brochure (if we have not sent you one already).
 
 ## Features
+- The site is responsive on all device sizes.
+- The site entices people who want to an easy way of dressing to fill in the sign up page.
+- This client information can then be used for targeted marketing campaigns as the business scales up and expands.
+
 ### Navigation Bar
-- It is fixed for visibility on all pages. 
-- All the pages have links making them accessible from any page. A hover feature helps you see which page you are selecting.
-- It is identical in design on all pages, promoting ease of use.
-- The page you are on is underlined.
 - It includes all pages (home, freedom, gallery and sign up page).
+- It is fixed for visibility from all pages giving you easy access going forward or backward. 
+- The design is identical on all pages, promoting continuity and ease of use (trust).
+- The page you are on is underlined promoting transparency (belonging).
 
 ![Navigation Bar](assets/images/readme_navbar_desktop.png)
 
@@ -81,15 +96,67 @@ On the mobile device the navigation bar folds into a burger icon with a drop dow
 
 ![Navigation bar on mobile](assets/images/readme_navbar_mobile.png)
 
-### Main Heading
+### Main Headings
 The logo has been incorporated with the heading in keeping with the product philosophy of having less do more for you.
+#### Home Page
+The heading has been suggested as an idea (white transparent cloud around text) of looking at your wardrobe and knowing what to wear anytime, anywhere.
+![Home Page Heading](assets/images/readme_heading_home.png)
+
+#### Footer Page
+- Links to social meadia are given for the user.  This opens a new tab for easy navigation.
+
+
+#### Freedom Page
+Cross-Over Capsule Clothes explains the hybrid concept of this range giving the user freedom.  The minamilistic idea is promoted in the sense the the user is free to experience life more with less stress of dressing for each occasion.
+![Freedom Page Heading](assets/images/readme_heading_freedom.png)
+
+- Section One
+In keeping with the ideas in which way the user will be free to experience life, these sections suggest various scenarios where life can be experienced more with joy wearing the cross-over capsule wardrobe.
+![Gallery Heading Section One](assets/images/readme_heading_gallery_section1.png)
+
+- Section Two and Three
+Here the user has a more spaced out layout to take a moment and savour the experiences with our clothes.
+![Freedom Page Heading Section Two and Three](assets/images/readme_heading_gallery_section_2_and_3.png)
+
+#### Gallery Page
+The idea that the user can simplify life and enjoy it more is suggested by the images.
+- Sign Up for a brochure now! is encapsulated in the white border again to promote the idea of signing up.  Only 3 fields make the task seem small.
+![Gallery Page Heading](assets/images/readme_heading_gallery.png)
+
+#### Signup Page
+The signup heading invites the user to take action now by signing up.![Signup Page Heading](assets/images/readme_heading_signup.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 The palette was chosen from [Codespace](https://mycolor.space/) to ensure a calm, serene and welcoming user experience. As the project evolved the header and footer color was changed to conform to a palette which could be used to compile a branding package in the future. 
 
 ![CodeSpace](assets/images/Small%20Switch%20Palette.png).
 
 
-### Main Heading
 #### Imagery
 The images presents the user experience as it unfolds on the navigation bar from left to right.   
 - Home: Here the user is presented with the idea of looking at their wardrobe knowing what they are going to wear anywhere, anytime! [Home](assets/images/home_tablet.png)  

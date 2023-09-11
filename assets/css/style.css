@@ -201,6 +201,22 @@ main {
     font-size:larger
 }
 
+#options_3 div {
+    padding: 15px;
+    text-align: right;
+    /* This will allow the screens to wrap in response to different screen sizes in a row */
+    flex-basis: 200px;
+    flex-grow: 1;
+    margin: auto;
+    line-height: 2;
+    font-size:larger';
+}
+
+#options_4 div {
+    text-align: left;
+}
+
+
 .box_image_2 {
     width: 15rem;
     height: 15rem;
