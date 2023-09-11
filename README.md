@@ -199,6 +199,66 @@ The W3C HTML Validator and W3C CSS Validator were used to check that there wer n
 </summary>
 </details>
 
+### Manual Testing
+- The website was tested on Opera, Google Chrome, and Microsoft Edge.
+- The website was viewed on a desktop, tablet, and Samsung Galaxy A33 mobile phone.
+- Chrome Dev Tools were used to ensure the site was responsive to various screen sizes.
+- All links work on these sites and the site was responsive to all the screen sizes.
+
+### Lighthouse Testing
+#### Results
+<details>
+<summary>Home Page Desktop Results
+</summary>
+
+![Home Page Lighthouse Result](assets/images/readme_lighthouse_freedom_desktop_result.png)
+</details>
+<details>
+<summary>Home Page Mobile Results
+</summary>
+
+![Home Page Lighthouse Mobile Result](assets/images/readme_lighthouse_home_mobile_result.png)
+</details>
+<details>
+<summary>Freedom Page Desktop Results
+</summary>
+
+![Freedom Page Lighthouse Desktop Result](assets/images/readme_lighthouse_freedom_desktop_result.png)
+</details>
+<details>
+<summary>Freedom Page Mobile Results
+</summary>
+
+![Freedom Page Lighthouse Mobile Result](assets/images/readme_lighthouse_freedom_mobile_result.png)
+
+</details>
+<details>
+<summary>Gallery Page Desktop Results
+</summary>
+
+![Gallery Page Lighthouse Desktop Result](assets/images/readme_lighthouse_gallery_desktop_result.png)
+
+</details>
+<details>
+<summary>Gallery Page Mobile Results
+</summary>
+
+![Gallery Page Lighthouse Mobile Result](assets/images/readme_lighthouse_gallery_mobile_result.png)
+
+</details>
+<details>
+<summary>Signup Page Desktop Results
+</summary>
+
+![Signup Page Lighthouse Desktop Result](assets/images/readme_lighthouse_signup_desktop_result.png)
+
+</details>
+<details>
+<summary>Signup Page Mobile Results
+</summary>
+
+![Signup Page Lighthouse Mobile Result](assets/images/readme_lighthouse_signup_mobile_result.png)
+
 
 ### Deployment
 Github was used to deploy this site.  The steps are as follows:
