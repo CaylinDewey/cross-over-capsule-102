@@ -5,7 +5,7 @@ Threads is intended to provide support for professionals, too busy living life t
 
 In the sign up form, a brochure can be requested with all the details for ordering. This will ensure that marketing can be optimised with carefully targeted campaigns - avoiding information overload for our customers. 
 
-The site is responsive to viewing on mobiles, tablets, laptops, and desktops.
+The site is responsive to viewing on mobiles, tablets, laptops, and desktops. Please see 
 
 ![Responsive](assets/images/readme_am_i_responsive.png)
 
@@ -141,7 +141,6 @@ The following palette was selected from [My Color Space](https://mycolor.space/)
 ### Typography
 - The Lato family of fonts was chosen from [Google Fonts](https://fonts.google.com) with sans-serif in case it doesn't import.
 
-
 ### Wireframes
 - [FigmaJam](https://www.figma.com/) was used to create wireframes that will scale up easily for teamwork. 
 - The site has been designed with an "easy to take in" style focussed on avoiding decision fatigue and information overload. The underlined navigation items tells you where you are.  
@@ -153,50 +152,19 @@ The following palette was selected from [My Color Space](https://mycolor.space/)
 ## Technologies Used
 ### Language
 - HTML and CSS was used
-- - -
 
 ### Frameworks, Libraries and Programs
-- [Am I Responsive](https://ui.dev/amiresponsive) displays the site on a range of devices.
-- [Code Institute Readme Template](Code-Institute-Solutions/readme-template) 
-- [Code Institue Alumna's, Kera Cudmore, Readme Tutorial](https://github.com/kera-cudmore)
-- [Code Institute Student Tutor and Mentor Support](https://learn.codeinstitute.net/ci_support/diplomainfullstacksoftwarecommoncurriculum/support)
-- [Codespace](https://mycolor.space/) was used to select a color palette. Details of the color palette are on the [wireframe](assets/images/wireframe_cross-over_capsule_v1.png). 
-- [Favicon](https://favicon.io/favicon-converter/) was used to create the favicon
-- [Figjam](https://www.figma.com/) was used for the wireframe
-- [Font Awesome](https://fontawesome.com/v4/icons/) was used for all icons
-- [Google Fonts](https://fonts.google.com/) was used to imports fonts to the website
 - [Git](https://git-scm.com/) was used for version control
 - [Github](https://github.com/) was used to save and store files
 - [Lightshot](https://app.prntscr.com/en/index.html) was used for screendumps
 
-
-### Deployment
-Github was used to deploy this site.  The steps are as follows:
-1. Log into the [Github site](https://github.com/)
-2. Pull up the repository for [Cross-over Capsule](https://github.com/CaylinDewey/cross-over-capsule-102)
-3. Select the settings link, then the pages link.
-4. In the source section choose 'main' from the dropdown menu.  
-5. Select the 'root' from the drop menu and 'save'.
-6. The URL that is displayed should have your live Github pages site. 
-
-### Local Development
-#### How to Fork
-1. Log into the [Github site](https://github.com/)
-2. Pull up the repository for [Cross-over Capsule](https://github.com/CaylinDewey/cross-over-capsule-102)
-3. Use to [fork button](assets/images/github_fork.png) on the top right hand corner 
-
-#### How to Clone
-1. Log into the [Github site](https://github.com/)
-2. Click on the burger menu that will open up the repositories you are working on at the bottom.  Select the project you need.
-3. Click on the clone button and select from HTTPS, SSH, or GitHub CLI.  Then copy the link shown.
-4. Open your code editor terminal and change the current work directory to the location you want to use for the cloned directory.
-5. Type in the terminal 'git clone' and paste your link here. 
-
-
 ## Testing
-### Validator 
+The W3C HTML Validator and W3C CSS Validator were used to check that there wer no error.
 
+- [W3C HTML Validtor](https://validator.w3.org/)
+- [W3C CSS Validtor] (https://jigsaw.w3.org/css-validator/))
 
+### Validator Results
 <details>
 <summary>index.html
 </summary>
@@ -227,6 +195,32 @@ Github was used to deploy this site.  The steps are as follows:
 
 ![CSS validation result](/assets/images/
 </details>
+
+
+
+### Deployment
+Github was used to deploy this site.  The steps are as follows:
+1. Log into the [Github site](https://github.com/)
+2. Pull up the repository for [Cross-over Capsule](https://github.com/CaylinDewey/cross-over-capsule-102)
+3. Select the settings link, then the pages link.
+4. In the source section choose 'main' from the dropdown menu.  
+5. Select the 'root' from the drop menu and 'save'.
+6. The URL that is displayed should have your live Github pages site. 
+
+### Local Development
+#### How to Fork
+1. Log into the [Github site](https://github.com/)
+2. Pull up the repository for [Cross-over Capsule](https://github.com/CaylinDewey/cross-over-capsule-102)
+3. Use to [fork button](assets/images/github_fork.png) on the top right hand corner 
+
+#### How to Clone
+1. Log into the [Github site](https://github.com/)
+2. Click on the burger menu that will open up the repositories you are working on at the bottom.  Select the project you need.
+3. Click on the clone button and select from HTTPS, SSH, or GitHub CLI.  Then copy the link shown.
+4. Open your code editor terminal and change the current work directory to the location you want to use for the cloned directory.
+5. Type in the terminal 'git clone' and paste your link here. 
+
+
 
 
 ### Workflow
@@ -282,6 +276,20 @@ Please contact me for support 24/7 on email wishful@thinking.com or join our Sla
 ## Frequently Asked Questions
 This section will be populated as social media comments and interaction is generated.
 
+
+
+
+
+
+- [Am I Responsive](https://ui.dev/amiresponsive) displays the site on a range of devices.
+- [Code Institute Readme Template](Code-Institute-Solutions/readme-template) 
+- [Code Institue Alumna's, Kera Cudmore, Readme Tutorial](https://github.com/kera-cudmore)
+- [Code Institute Student Tutor and Mentor Support](https://learn.codeinstitute.net/ci_support/diplomainfullstacksoftwarecommoncurriculum/support)
+- [Codespace](https://mycolor.space/) was used to select a color palette. Details of the color palette are on the [wireframe](assets/images/wireframe_cross-over_capsule_v1.png). 
+- [Favicon](https://favicon.io/favicon-converter/) was used to create the favicon
+- [Figjam](https://www.figma.com/) was used for the wireframe
+- [Font Awesome](https://fontawesome.com/v4/icons/) was used for all icons
+- [Google Fonts](https://fonts.google.com/) was used to imports fonts to the website
 
 
 
