@@ -261,8 +261,6 @@ main {
     /* Lines up the images below each other in mobile*/
     width: 100%;
     height: auto;    
-    /* Alt text stays readable if image link is broken */
-    line-height: auto;
 }
 
 #photos {

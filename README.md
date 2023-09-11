@@ -165,37 +165,39 @@ The W3C HTML Validator and W3C CSS Validator were used to check that there wer n
 - [W3C CSS Validtor] (https://jigsaw.w3.org/css-validator/))
 
 ### Validator Results
+
 <details>
 <summary>index.html
 </summary>
 
-![Home Page validation result](/assets/images/readme_validation_index_result.png)
+![Home Page validation result](/assets/images/readme_validator_results_index.png)
 </details>
 <details>
 <summary>freedom.html
 </summary>
 
-![Freedom validation result](/assets/images/read_va)
+![Freedom validation result](/assets/images/readme_validtor_result_freedom.png)
 </details>
 <details>
-<summary>freedom.html
-</summary>
 
-![Gallery validation result](/assets/images/
-</details>
-<details>
+![Gallery validation result](/assets/images/readme_validtior_result_gallery.png)
 <summary>Gallery.html
 </summary>
 
-![Application Received validation result](/assets/images/
 </details>
 <details>
-<summary>style.css
+
+![Application Received validation result](/assets/images/readme_validator_result_signup_page.png)
+<summary>signup.html
 </summary>
 
-![CSS validation result](/assets/images/
 </details>
+<details>
 
+![CSS validation result](/assets/images/readme_validator_style_css.png)
+<summary>style.css
+</summary>
+</details>
 
 
 ### Deployment
