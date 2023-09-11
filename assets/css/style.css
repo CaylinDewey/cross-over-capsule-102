@@ -197,6 +197,8 @@ main {
     flex-basis: 200px;
     flex-grow: 1;
     margin: auto;
+    line-height: 2;
+    font-size:larger
 }
 
 .box_image_2 {

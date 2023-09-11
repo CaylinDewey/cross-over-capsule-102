@@ -7,7 +7,7 @@ In the sign up form, a brochure can be requested with all the details for orderi
 
 The site is responsive to viewing on mobiles, tablets, laptops, and desktops.
 
-![Responsive](assets/images/responsive-results.png)
+![Responsive](assets/images/readme_am_i_responsive.png)
 
  View Threads Cross-over Capsule live project [here](https://caylindewey.github.io/cross-over-capsule-102/).
 
@@ -190,16 +190,16 @@ All HTML and CSS pages were tested.  Most of the bugs found were syntax bugs tha
 
 #### Chrome Dev Tools Lighthouse
 The following scores for mobile were recorded:
-[Mobile Home](assets/images/lighthouse_home_mobile.png)
-[Mobile Freedom](assets/images/lighthouse_freedom_mobile.png)
-[Mobile Supportive](assets/images/lighthouse_supportive_mobile.png)
-[Mobile Sign-up](assets/images/lighthouse_signup_mobile.png)
+![Mobile Home](assets/images/lighthouse_home_mobile.png)
+![Mobile Freedom](assets/images/lighthouse_freedom_mobile.png)
+![Mobile Supportive](assets/images/lighthouse_supportive_mobile.png)
+![Mobile Sign-up](assets/images/lighthouse_signup_mobile.png)
 
 The following scores for desktop were recorded:
-[Desktop Home](assets/images/lighthouse_home_desktop.png)
-[Desktop Freedom](assets/images/lighthouse_freedom_desktop.png)
-[Desktop Supportive](assets/images/lighthouse_supportive_desktop.png)
-[Desktop Sign-up](assets/images/lighthouse_signup_desktop.png)
+![Desktop Home](assets/images/lighthouse_home_desktop.png)
+![Desktop Freedom](assets/images/lighthouse_freedom_desktop.png)
+![Desktop Supportive](assets/images/lighthouse_supportive_desktop.png)
+![Desktop Sign-up](assets/images/lighthouse_signup_desktop.png)
 
 Mention was made in future implementation to review the necessity of a better score, especially for the mobile performance before time is allocated for this.  
 
