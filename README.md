@@ -13,6 +13,7 @@ The site is responsive to viewing on mobiles, tablets, laptops, and desktops.
 
 ## Table of Contents
 - [User Stories UX](#user-stories-ux)
+
     - [First-time Visitor Goals](#first-time-visitor-goals)
     - [Returning Visitor Goals](#returning-visitor-goals-scalability-and-future-proof)
     - [Frequent User Goals](#frequent-user-goals)
@@ -62,31 +63,29 @@ The site is responsive to viewing on mobiles, tablets, laptops, and desktops.
 - [Frequently Asked Questions](#frequently-asked-questions)
 
 ## User Stories UX
-### User Experience 
-![Design](assets/images/readme_wireframe.png) 
-- The site has been designed with an "easy to take in" style focussed on avoiding decision fatigue and information overload.  
-- Each stroke and click is efficient and intentional.
+### First Time Visitor Goals
+- The visitor is introduced to the idea of going to the wardrobe knowing what to wear anywhere, anytime on the landing page. 
+- The site is easy to navigate.  The layout is simple (no decision fatigue or information overload).
+- A signup page provides the application for a brochure.
 
-#### First-time Visitor Goals
-- Buy into the idea of owning an easy way of dressing and then sign on for a brochure. 
+### Returning Visitor Goals
+- Find more information about the company.
+- Review new concepts on the Freedom page and new styles on the gallery page.
+- Request an updated brochure if the targeted marketing campaign has not sent one yet.
 
-#### Returning Visitor Goals (Scalability and Future Proof)
-- The site is scalable and will remain just as easy and simple to take in regardless of expansion and growth. 
-- The focus will be on replacing product with ones - on our site - that give you more joy.  
-
-#### Frequent User Goals
-- Read about our latest product developments and ideas on the freedom page.  See how you feel in the world wearing our clothes.
-- See our latest gear and styles on the gallery page.
-- Sign on for the latest brochure (if we have not sent you one already).
-
+### Frequent Visitor Goals
+- As the product range and technology expands, new concepts can be loaded on the freedom page.
+- New styles and looks can be loaded on the gallery page.
+- The visitor should always have options to replace older items with newer items that give more joy.
+- - -
 ## Features
 - The site is responsive on all device sizes.
 - The site entices people who want to an easy way of dressing to fill in the sign up page.
 - This client information can then be used for targeted marketing campaigns as the business scales up and expands.
-
-### Navigation Bar
+### Existing Features
+#### Navigation Bar
 - It includes all pages (home, freedom, gallery and sign up page).
-- It is fixed for visibility from all pages giving you easy access going forward or backward. 
+- It is fixed for visibility from all pages giving you easy access going forward or backward.  You can also easily access any page on the site from here.
 - The design is identical on all pages, promoting continuity and ease of use (trust).
 - The page you are on is underlined promoting transparency (belonging).
 
@@ -96,105 +95,67 @@ On the mobile device the navigation bar folds into a burger icon with a drop dow
 
 ![Navigation bar on mobile](assets/images/readme_navbar_mobile.png)
 
-### Main Headings
+#### Main Headings
 The logo has been incorporated with the heading in keeping with the product philosophy of having less do more for you.
-#### Home Page
+##### Home Page
 The heading has been suggested as an idea (white transparent cloud around text) of looking at your wardrobe and knowing what to wear anytime, anywhere.
 ![Home Page Heading](assets/images/readme_heading_home.png)
 
-#### Footer Page
+##### Footer Page
 - Links to social meadia are given for the user.  This opens a new tab for easy navigation.
 
-
-#### Freedom Page
+##### Freedom Page
 Cross-Over Capsule Clothes explains the hybrid concept of this range giving the user freedom.  The minamilistic idea is promoted in the sense the the user is free to experience life more with less stress of dressing for each occasion.
 ![Freedom Page Heading](assets/images/readme_heading_freedom.png)
 
 - Section One
 In keeping with the ideas in which way the user will be free to experience life, these sections suggest various scenarios where life can be experienced more with joy wearing the cross-over capsule wardrobe.
-![Gallery Heading Section One](assets/images/readme_heading_gallery_section1.png)
+![Gallery Heading Section One](assets/images/readme_heading_gallery_freedom_section_1.png)
 
-- Section Two and Three
-Here the user has a more spaced out layout to take a moment and savour the experiences with our clothes.
-![Freedom Page Heading Section Two and Three](assets/images/readme_heading_gallery_section_2_and_3.png)
+- Section Two
+Here the user has a more spaced out layout to take a moment and savour the experiences with our clothes. Minimalism often promotes buying less.  This site promotes buying to experience more joy from the new items.
+![Freedom Page Heading Section Two](assets/images/readme_heading_freedom_section_2.png)
 
-#### Gallery Page
+- Section Three
+The user is invited to collaborate with us.  The contact details are given next to an image of a smiling modern girls with a huge bunch of lillies.
+![Freedom Page Heading Section Three](assets/images/readme_headings_freedome_section_3.png)
+
+##### Gallery Page
 The idea that the user can simplify life and enjoy it more is suggested by the images.
 - Sign Up for a brochure now! is encapsulated in the white border again to promote the idea of signing up.  Only 3 fields make the task seem small.
 ![Gallery Page Heading](assets/images/readme_heading_gallery.png)
 
-#### Signup Page
+##### Signup Page
 The signup heading invites the user to take action now by signing up.![Signup Page Heading](assets/images/readme_heading_signup.png)
 
+### Features Left to Implement
+- In future all new concepts can be updated on the freedom page. A blog can also be added featuring articles and product tests from influencers.
+- The gallery page can display the latest products.
+- The signup page can be expanded to give an option to have a newsletter subscription.
+
+## Design
+### Color Scheme
+The following palette was selected from [My Color Space](https://mycolor.space/)
+![Color Palette](assets/images/readme_small_switch_palette.png)
+
+### Typography
+- The Lato family of fonts was chosen from [Google Fonts](https://fonts.google.com) with sans-serif in case it doesn't import.
 
 
+### Wireframes
+- [FigmaJam](https://www.figma.com/) was used to create wireframes that will scale up easily for teamwork. 
+- The site has been designed with an "easy to take in" style focussed on avoiding decision fatigue and information overload. The underlined navigation items tells you where you are.  
+- Each stroke and click is efficient and intentional.
+![Design](assets/images/readme_wireframe.png) 
 
+- - -
 
+## Technologies Used
+### Language
+- HTML and CSS was used
+- - -
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-The palette was chosen from [Codespace](https://mycolor.space/) to ensure a calm, serene and welcoming user experience. As the project evolved the header and footer color was changed to conform to a palette which could be used to compile a branding package in the future. 
-
-![CodeSpace](assets/images/Small%20Switch%20Palette.png).
-
-
-#### Imagery
-The images presents the user experience as it unfolds on the navigation bar from left to right.   
-- Home: Here the user is presented with the idea of looking at their wardrobe knowing what they are going to wear anywhere, anytime! [Home](assets/images/home_tablet.png)  
-
-- Freedom: Imagine if packing could be a serene and masterful task - even to the point that your beanie matches your luggage!  [Freedom](assets/images/freedom_tablet.png)
-
-- Supportive: The user is presented with ideas on how using this product is supportive internally as well as externally. There could be so many positive consequences of doing business on this site and being associated with this brand.  [Support](assets/images/supportive_tablet.png)
-
-- Signup: Your orders can be processed by staff that take ethics and professionalism seriously.  [signup](assets/images/signup_tablet.png)
- 
-### Future Implementations
-#### Minimal Viable Product
-The MVP was considered with most of the work for this project. So much more content and features could be included.  Initially an order form with measurements, palette choice form, and email features were considered.  You will see remnants of some initial code referring to "palette", "mesurements", and "mail to" that stemmed from this.  One of the first rectrospectives for the project caused this change in course.  These are all improvements that can be pinned for weighting or prioritising in future user stories.
-
-#### Browser Testing
-The site could be tested in different browsers in future. It was not part of the minimal viable product for this project.
-
-#### Chrome Dev Tools Lighthouse Scores
-The scores for mobile performance especially, has been improved after a peer-review suggested this. All the new images reflecting the updated and improved tests are now [available](#chrome-dev-tools-lighthouse).
-
-#### Content for Marketing on the Site
-In future it would be great to have a few shots and clips of influencers that fit our demographic. Examples would be influencers that rate tech, travel gear, travel destinations, etc. Ideas for content could be to feature their wardrobe and what they selected and why. As product upgrades are released, these can then be reviewed for "promotion" by the influencers.
-
-It may be prudent to keep an eye on the [Labfresh](https://labfresh.nl/) and [ninepine](https://www.ninepine.nl/) sites for inspiration. It would also be really cool to collaborate with their people, maybe even featuring their founders. This could potentially triple all three brands exposure for global marketing.  Many podcasters and influencers follow this marketing recipe.
-
-Minimalism has a drawback that you are actually marketing the idea for the user to consume less.  By constandly upgrading and refining our product range, we can avoid this and tap into a market that very few people have managed to grow.
-
-#### Accessibility & Color Contrasts
-I would strongly recommend that more time be spent on ensuring that this site is accessible to all users and so inclusive. Many more aria-labels can be inserted.  Color contrasts can be introduced in conjunction with the standard brand palette.
-
-#### Readme File Improvements
-The readme file could containt badges and shields with up to date stats.  It could also have instructions for local development and cloning as seen on [Kera Cudmore's readme example](https://github.com/kera-cudmore/Bully-Book-Club#local-development). A branding package could be sourced to ensure all future marketing material complies to standards set.
-
-## Technologies Used/Acknowledgements
-### Languages
-HTML and CSS were used to create this website.
-
-### Frameworks, Programs and Libraries
+### Frameworks, Libraries and Programs
 - [Am I Responsive](https://ui.dev/amiresponsive) displays the site on a range of devices.
 - [Code Institute Readme Template](Code-Institute-Solutions/readme-template) 
 - [Code Institue Alumna's, Kera Cudmore, Readme Tutorial](https://github.com/kera-cudmore)
