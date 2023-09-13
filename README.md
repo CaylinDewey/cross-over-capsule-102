@@ -265,8 +265,9 @@ The W3C HTML Validator and W3C CSS Validator were used to check that there wer n
 </summary>
 
 ![Signup Page Lighthouse Mobile Result](assets/images/readme_lighthouse_signup_mobile_result.png)
-
+</details>
  
+- - -
 
 ## Deployment and Local Development
 
@@ -291,7 +292,7 @@ Github was used to deploy this site.  The steps are as follows:
 4. Open your code editor terminal and change the current work directory to the location you want to use for the cloned directory.
 5. Type in the terminal 'git clone' and paste your link here. 
 
-
+- - - 
 
 ## Credits
 ### Code and Media
@@ -308,7 +309,7 @@ Github was used to deploy this site.  The steps are as follows:
 ### Content
 - All content was written by Caylin Dewey
 
- 
+ - - -
 
 ## Acknowledgements
 - My mentor Mitko Bachvarov provided helpful feedback and advice.
