@@ -266,7 +266,7 @@ The W3C HTML Validator and W3C CSS Validator were used to check that there wer n
 
 ![Signup Page Lighthouse Mobile Result](assets/images/readme_lighthouse_signup_mobile_result.png)
 
-- - - 
+ 
 
 ## Deployment and Local Development
 
@@ -308,7 +308,7 @@ Github was used to deploy this site.  The steps are as follows:
 ### Content
 - All content was written by Caylin Dewey
 
-- - - 
+ 
 
 ## Acknowledgements
 - My mentor Mitko Bachvarov provided helpful feedback and advice.
