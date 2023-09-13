@@ -291,7 +291,7 @@ Github was used to deploy this site.  The steps are as follows:
 4. Open your code editor terminal and change the current work directory to the location you want to use for the cloned directory.
 5. Type in the terminal 'git clone' and paste your link here. 
 
-- - - 
+
 
 ## Credits
 ### Code and Media
