@@ -109,7 +109,7 @@ Cross-Over Capsule Clothes explains the hybrid concept of this range giving the 
 
 - Section One
 In keeping with the ideas in which way the user will be free to experience life, these sections suggest various scenarios where life can be experienced more with joy wearing the cross-over capsule wardrobe.
-![Gallery Heading Section One](assets/images/readme_heading_gallery_freedom_section_1.png)
+![Gallery Heading Section One](assets/images/gallery_family.webp)
 
 - Section Two
 Here the user has a more spaced out layout to take a moment and savour the experiences with our clothes. Minimalism often promotes buying less.  This site promotes buying to experience more joy from the new items.
@@ -117,7 +117,7 @@ Here the user has a more spaced out layout to take a moment and savour the exper
 
 - Section Three
 The user is invited to collaborate with us.  The contact details are given next to an image of a smiling modern girls with a huge bunch of lillies.
-![Freedom Page Heading Section Three](assets/images/readme_headings_freedome_section_3.png)
+![Freedom Page Heading Section Three](assets/images/gallery_lily_smiling_woman.webp)
 
 ##### Gallery Page
 The idea that the user can simplify life and enjoy it more is suggested by the images.
