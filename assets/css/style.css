@@ -52,10 +52,10 @@ header a {
 
 /* Logo Styles */
 .logo {
-    max-width:100px;
+    max-width: 100px;
     display: flex;
     align-items: flex-end;
-    }
+}
 
 #menu {
     list-style-type: none;
@@ -67,7 +67,7 @@ header a {
 
 /* Shows which item we are selecting */
 .active {
-    cursor:grab;
+    cursor: grab;
     border-bottom: 1px solid black;
 }
 
@@ -157,7 +157,7 @@ main {
     flex-wrap: wrap;
 }
 
-.options_1 div {    
+.options_1 div {
     padding: 15px;
     text-align: center;
     /* This will allow the screens to wrap in response to different screen sizes in a row */
@@ -170,8 +170,9 @@ main {
     height: 75%;
     margin-top: 2rem;
     flex-basis: 50px;
-    flex-grow: 1;
+    flex-grow: 1 1;
 }
+
 /* Section Two */
 #info_2 {
     width: 90%;
@@ -198,7 +199,6 @@ main {
     flex-grow: 1;
     margin: auto;
     line-height: 2;
-    font-size:larger
 }
 
 /** Section 3 **/
@@ -211,7 +211,7 @@ main {
     padding-top: 10px;
     margin-bottom: 0px;
     text-align: center;
-    font-size: 150%;
+    font-size: larger;
 }
 
 #options_3 {
@@ -227,20 +227,11 @@ main {
     flex-grow: 1;
     margin: auto;
     line-height: 2;
-    font-size:larger;
-}
-
-.box_image_2 {
-    width: 15rem;
-    height: 15rem;
-    margin-top: 2rem;
-    flex-basis: 50px;
-    flex-grow: 1;
 }
 
 /* Gallery Page */
 #gallery {
-    background-color:#DFE8E0;
+    background-color: #DFE8E0;
 }
 
 #info_gallery {
@@ -252,7 +243,7 @@ main {
 }
 
 .container_photos {
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -260,7 +251,7 @@ main {
 #photos img {
     /* Lines up the images below each other in mobile*/
     width: 100%;
-    height: auto;    
+    height: auto;
 }
 
 #photos {
@@ -331,19 +322,30 @@ footer {
     color: black;
 }
 
+@media screen and (max-width: 576px){
+    /* Freedom Page */
+    .box_image {
+        width: 250px;
+    }
+}
+
 /* Media query: large or landscape phones 576px and up)  */
 @media screen and (min-width: 576px) {
+    
+    /* Gallery Page */
     #photos {
         column-count: 2;
         column-gap: 0;
     }
-    /*#signup-form {
-        position: absolute;
-        top: 50 px;
-        padding-top: 20px;
-    }*/
-}
 
+    
+@media screen and (max-width: 768px) {
+    
+    /* Freedom Page */
+    .box_image {
+        width: 250px;
+    }
+}
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
@@ -382,24 +384,24 @@ footer {
         margin-top: 75px;
     }
 
-    /* Index */
+    /* Index Page*/
     #cover-text {
         width: auto;
         left: 20px;
         right: auto;
-        font-size:x-large;
-        padding:10px;
+        font-size: x-large;
+        padding: 10px;
         display: flex;
         flex-wrap: wrap;
         align-content: center;
     }
 
-    /* Gallery */
+    /* Gallery Page*/
     #photos {
         column-count: 2;
     }
 
-    /* Sign Up Section */
+    /* Sign Up Form */
     #signup {
         background-position: center;
         position: relative;
