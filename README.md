@@ -131,7 +131,8 @@ The signup heading invites the user to take action now by signing up.![Signup Pa
 ### Features Left to Implement
 - In future all new concepts can be updated on the freedom page. A blog can also be added featuring articles and product tests from influencers.
 - The gallery page can display the latest products.
-- The signup page can be expanded to give an option to have a newsletter subscription.
+- The signup page can be expanded to give an option to have a newsletter subscription and contact details could be moved here.
+- A bot chat function can be brought on.
 
 - - -
 

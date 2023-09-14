@@ -268,9 +268,9 @@ main {
     line-height: 0;
 }
 
-/* Signup Page*/
+/* Sign up Page*/
 #sign-up {
-    background: url("../images/sign-up.jpg") no-repeat center center/cover;
+    background: url("../images/sign_up.jpg") no-repeat center center/cover;
     background-size: cover;
     background-position: 75%;
     padding: 20px 10% 20px 10%;
