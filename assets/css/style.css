@@ -139,7 +139,7 @@ main {
     position: relative;
 }
 
-/* Section 1 */
+/* Section One */
 #info {
     width: 90%;
     margin: 20px auto;
@@ -201,7 +201,7 @@ main {
     line-height: 2;
 }
 
-/** Section 3 **/
+/** Section Three **/
 #info_3 {
     width: 90%;
     margin: 20px auto;
@@ -269,7 +269,6 @@ main {
 }
 
 #signup-form {
-    /* color: ffffff */
     background-color: rgb(255, 255, 255, .6);
     padding: 20px;
     margin-top: 70px;
@@ -301,7 +300,6 @@ main {
 }
 
 /* Footer */
-/*This footer section below was deleted in the tutorial and replaced by the social network id*/
 footer {
     background-color: #AFCFC3;
     box-shadow: 10px -5px 5px lightgray;
@@ -321,32 +319,35 @@ footer {
     padding: 4%;
     color: black;
 }
+/* Media query: smaller than 576px */
+@media screen and (max-width: 576px) {
 
-@media screen and (max-width: 576px){
     /* Freedom Page */
     .box_image {
         width: 250px;
     }
 }
 
-/* Media query: large or landscape phones 576px and up)  */
+/* Media query: large or landscape phones 576px and up  */
 @media screen and (min-width: 576px) {
-    
+
     /* Gallery Page */
     #photos {
         column-count: 2;
         column-gap: 0;
     }
+}
 
-    
+/* Media query: smaller than 768px */
 @media screen and (max-width: 768px) {
-    
+
     /* Freedom Page */
     .box_image {
         width: 250px;
     }
 }
-/* Media query: tablets and larger (768px and up) */
+
+/* Media query: large or landscape phones 768px and up  */
 @media screen and (min-width: 768px) {
 
     /* Header */
