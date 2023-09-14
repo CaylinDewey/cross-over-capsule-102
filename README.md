@@ -315,7 +315,7 @@ Github was used to deploy this site.  The steps are as follows:
  - - -
 
 ## Acknowledgements
-- My mentor Mitko Bachvarov provided helpful feedback and advice.
-- Slack community provided solutions and feedback.
-- Code Institute tutors were quick to respond to my problems and to assist me - all with very little fuss!
+- My mentor,<b> Mitko Bachvarov</b> provided helpful feedback and advice.
+- <b>Code Institute </b> Slack community provided solutions and feedback.
+- <b>Code Institute </b> tutors were quick to respond to my problems and to assist me - all with very little fuss!
 
