@@ -1,15 +1,15 @@
 ![logo](assets/images/logo.png)
 
 # Threads
-Threads is intended to provide support for professionals, too busy living life to worry about what they should wear. The site targets people who want to maximise their freedom of living, and to minimise stress of dressing for it.
+Threads is intended to provide support for professionals, too busy living life to worry about what they should wear. The site targets people who want to maximise their freedom of living, and to minimise the stress of dressing for it.
 
-In the sign up form, a brochure can be requested with all the details for ordering. This will ensure that marketing can be optimised with carefully targeted campaigns - avoiding information overload for our customers. 
+In the sign up form, a brochure can be requested with all the product information for ordering. This will ensure that marketing can be optimised with carefully targeted campaigns - avoiding information overload for our customers. 
 
-The site is responsive to viewing on mobiles, tablets, laptops, and desktops. Please see 
+The site is responsive to viewing on mobiles, tablets, laptops, and desktops.  
 
 ![Responsive](assets/images/readme_am_i_responsive.png)
 
- View Threads Cross-over Capsule live project [here](https://caylindewey.github.io/cross-over-capsule-102/).
+Please view the Threads Cross-over Capsule live project [here](https://caylindewey.github.io/cross-over-capsule-102/).
 
 - - -
 
@@ -51,28 +51,28 @@ The site is responsive to viewing on mobiles, tablets, laptops, and desktops. Pl
 # Threads - Cross-over Capsule Wardrobe
 ## User Experience
 
-- An user-centered approach was taken with the design of a lean, simple and elegant site.
-- The user should be able to get the lay of the land within a glance.
-- The site should be future-proofed to accomodate scalability but keep the navigation of the site consistent for the user - regardless of growth and expansion
-- A cautionary note: minimalism is understood to discourage buying activities. The focus for this site to be successful, needs to provide the type of product that brings more joy to the user, than its predecessors and even competitors.
+- A <b>user-centered</b> approach was taken with the design of a lean, simple and elegant site.
+- The user should be able to get the <i><b>lay of the land</i></b> within a glance.
+- The site should be <b>future-proofed</b> to accomodate <b>scalability</b> but keep the navigation of the site consistent for the user - regardless of growth and expansion
+- A cautionary note: minimalism is understood by some to discourage buying activities. On this site the emphasis should be on replacing items as technology and styles enable them to bring more joy and alleviate stress.
 - The image of a smiling woman with lillies was repeated to amplify this focus.
 
 ### User Stories UX
 
 #### First Time Visitor Goals
 - The visitor is introduced to the idea of going to the wardrobe knowing what to wear anywhere, anytime on the landing page. 
-- The site is easy to navigate.  The layout is simple (no decision fatigue or information overload).
-- A signup page provides the application for a brochure.
+- The site is easy to navigate.  The layout is simple to avoid decision fatigue and information overload.
+- An easy-to-use and quick signup page, provides the opportunity for an application of a brochure.
 
 #### Returning Visitor Goals
 - Find more information about the company.
-- Review new concepts on the Freedom page and new styles on the gallery page.
-- Request an updated brochure if the targeted marketing campaign has not sent one yet.
+- Review new technology and product information on the Freedom page and new styles on the gallery page.
+- Request an updated brochure.
 
 #### Frequent Visitor Goals
-- As the product range and technology expands, new concepts can be loaded on the freedom page.
+- Information about new features and technological updates could be found on the Freedom page.
 - New styles and looks can be loaded on the gallery page.
-- The visitor should always have options to replace older items with newer items that give more joy.
+- The visitor should always be encouraged to replace older items with newer items that give more joy.
 
 - - -
 ## Features
@@ -115,24 +115,26 @@ Here the user has a more spaced out layout to take a moment and savour the exper
 ![Freedom Page Heading Section Two](assets/images/readme_heading_freedom_section_2.png)
 
 - Section Three
-The user is invited to collaborate with us.  The contact details are given next to an image of a smiling modern girls with a huge bunch of lillies.
+The user is invited to collaborate with us.  The contact details are given next to an image of a friendly, smiling woman, with a huge bunch of lillies.  This image is repeated on the gallery page to emphasise the concept of <i>living more</i> in our brand of clothing.
 ![Freedom Page Heading Section Three](assets/images/readme_heading_freedom_section_3%20.png)
 
 ##### Gallery Page
 The idea that the user can simplify life and enjoy it more is suggested by the images.
-- Sign Up for a brochure now! is encapsulated in the white border again to promote the idea of signing up.  Only 3 fields make the task seem small.
 ![Gallery Page Heading](assets/images/readme_heading_gallery.png)
 
 ##### Signup Page
-The signup heading invites the user to take action now by signing up.![Signup Page Heading](assets/images/readme_heading_signup.png)
+The signup heading invites the user to take action now by signing up.
+- Sign Up for a brochure now! is encapsulated in the white border again to promote the idea of signing up.  Only 3 fields make the task seem small.
+
+![Signup Page Heading](assets/images/readme_heading_signup.png)
 
 - - - 
 
 ### Features Left to Implement
-- In future all new concepts can be updated on the freedom page. A blog can also be added featuring articles and product tests from influencers.
-- The gallery page can display the latest products.
-- The signup page can be expanded to give an option to have a newsletter subscription and contact details could be moved here.
-- A bot chat function can be brought on.
+- In future all new technology and product information can be updated on the freedom page. A blog can also be added featuring articles and product tests from influencers. Positive product ratings could also be added.
+- The gallery page can display the latest product styles and ranges.
+- The signup page can be expanded to give an option to have a newsletter subscription and the contact details could be moved here.
+- A bot chat function could be brought on to enhance customer service.
 
 - - -
 
@@ -283,7 +285,7 @@ Github was used to deploy this site.  The steps are as follows:
 ### How to Fork
 1. Log into the [Github site](https://github.com/)
 2. Pull up the repository for [Cross-over Capsule](https://github.com/CaylinDewey/cross-over-capsule-102)
-3. Use to [fork button](assets/images/github_fork.png) on the top right hand corner 
+3. Use to [fork button](assets/images/readme_github_fork.png) on the top right hand corner 
 
 ### How to Clone
 1. Log into the [Github site](https://github.com/)
@@ -297,8 +299,9 @@ Github was used to deploy this site.  The steps are as follows:
 ## Credits
 ### Code and Media
 - [Am I Responsive](https://ui.dev/amiresponsive) displays the site on a range of devices.
-- [Code Institute Readme Template](Code-Institute-Solutions/readme-template) 
-- [Code Institue Alumna's, Kera Cudmore, Readme Tutorial](https://github.com/kera-cudmore)
+- [Code Institute Readme Template Tutorial](Code-Institute-Solutions/readme-template) 
+- [Code Institute Readme from Thomas Tomo](https://github.com/Thomas-Tomo/Lunar-Escape) 
+- [Code Institue Readme from Kera Cudmore](https://github.com/kera-cudmore)
 - [Favicon](https://favicon.io/favicon-converter/) was used to create the favicon
 - [Figjam](https://www.figma.com/) was used for the wireframe
 - [Font Awesome](https://fontawesome.com/v4/icons/) was used for all icons 
@@ -314,5 +317,5 @@ Github was used to deploy this site.  The steps are as follows:
 ## Acknowledgements
 - My mentor Mitko Bachvarov provided helpful feedback and advice.
 - Slack community provided solutions and feedback.
-- Code Institute tutors were quick to respond to my problems and to assist me with very little fuss.
+- Code Institute tutors were quick to respond to my problems and to assist me - all with very little fuss!
 
