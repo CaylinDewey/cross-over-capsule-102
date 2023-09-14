@@ -105,11 +105,10 @@ The heading has been suggested as an idea (white transparent cloud around text) 
 
 ##### Freedom Page
 Cross-Over Capsule Clothes explains the hybrid concept of this range giving the user freedom.  The minamilistic idea is promoted in the sense the the user is free to experience life more with less stress of dressing for each occasion.
-![Freedom Page Heading](assets/images/readme_heading_freedom.png)
 
 - Section One
 In keeping with the ideas in which way the user will be free to experience life, these sections suggest various scenarios where life can be experienced more with joy wearing the cross-over capsule wardrobe.
-![Gallery Heading Section One](assets/images/gallery_family.webp)
+![Gallery Heading Section One](assets/images/readme_heading_freedom_section_1.png)
 
 - Section Two
 Here the user has a more spaced out layout to take a moment and savour the experiences with our clothes. Minimalism often promotes buying less.  This site promotes buying to experience more joy from the new items.
@@ -117,7 +116,7 @@ Here the user has a more spaced out layout to take a moment and savour the exper
 
 - Section Three
 The user is invited to collaborate with us.  The contact details are given next to an image of a smiling modern girls with a huge bunch of lillies.
-![Freedom Page Heading Section Three](assets/images/gallery_lily_smiling_woman.webp)
+![Freedom Page Heading Section Three](assets/images/readme_heading_freedom_section_3%20.png)
 
 ##### Gallery Page
 The idea that the user can simplify life and enjoy it more is suggested by the images.
